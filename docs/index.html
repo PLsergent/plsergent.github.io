@@ -12,7 +12,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
         <link href="./static/css/material-kit.css" rel="stylesheet">
+        <link href="./static/css/style.css" rel="stylesheet">
         <script src="./static/js/material-kit.min.js"></script>
+        <script src="./static/js/animation.js"></script>
     </head>
 
     <body>
@@ -20,54 +22,88 @@
             <div class="row">
               <div class="col-12">
                 <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-                  <div class="container-fluid px-0">
+                  <div id="navbar-scroll" class="container-fluid px-0">
                     <a class="navbar-brand font-weight-bolder ms-sm-3" href="#home" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
                       <i class="fas fa-keyboard"></i> Pierre-Louis Sergent
                     </a>
                     
-                    <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
-                      <ul class="navbar-nav navbar-nav-hover ms-auto">
-                        <li class="nav-item ms-lg-auto">
-                          <a class="nav-link nav-link-icon me-2" href="https://github.com/PLsergent">
-                            <i class="fa fa-github me-1" aria-hidden="true"></i>
-                            <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Star us on Github">Github</p>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                    <ul class="nav nav-pills ms-auto">
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#about">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">About</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#experiences">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Experiences</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#skills">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Skills</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#hobbies">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Hobbies</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#contact">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Contact me</p>
+                        </a>
+                      </li>                   
+                    </ul>
+                    
+                    <a class="nav-link nav-link-icon me-2" href="https://github.com/PLsergent" target="_blank">
+                      <i class="fa fa-github me-1" aria-hidden="true"></i>
+                      <p class="d-inline text-sm z-index-1 font-weight-bold">Github</p>
+                    </a>
                   </div>
                 </nav>
               </div>
             </div>
         </div>
 
+        <button id="fixedbutton" class="btn btn-lg btn-dark btn-rounded">
+          Next
+        </button>
+
         <!-- ------- HOMEPAGE ------- -->
         <div id="home" class="page-header min-vh-100" style="background-image: url(&#39;./static/img/background.png&#39;);" loading="lazy">
             <span class="mask bg-gradient-dark opacity-4"></span>
             <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-md-7 d-flex justify-content-center flex-column">
-                  <h1 class="text-white mb-4" style="font-size: 60px;">
-                    <img src="./static/img/coding.png" alt="coding" width="150px">
-                    Pierre-Louis Sergent
-                  </h1>
-                  <p class="text-white opacity-10 lead pe-5 me-5 fs-4">Welcome to my personal website.</p>
-                  <div class="buttons">
-                      <a type="button" href="#about" class="btn btn-lg btn-white mt-4">
-                        <i class="fas fa-search"></i> Explore
-                      </a>
-                      <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank" class="btn btn-lg btn-white mt-4">
-                        <i class="fas fa-folder-open"></i> My projects
-                      </a>
+              <div class="d-flex justify-content-center flex-column">
+                <div class="row mb-4">
+                  <div class="col-md-2 d-flex justify-content-center"><img src="./static/img/coding.png" alt="coding" width="150px"></div>
+                  <div class="col-lg-10 d-flex align-items-center">
+                    <h1 class="text-white" style="font-size: 60px;">
+                      Pierre-Louis Sergent
+                    </h1>
                   </div>
                 </div>
+                
+                <p class="text-white opacity-10 lead pe-5 me-5 fs-4">Welcome to my personal website.</p>
+                <div class="buttons">
+                    <a type="button" href="#about" class="btn btn-lg btn-white mt-4">
+                      <i class="fas fa-search"></i> Explore
+                    </a>
+                    <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank" class="btn btn-lg btn-white mt-4">
+                      <i class="fas fa-folder-open"></i> My projects
+                    </a>
+                </div>
+              </div>
             </div>
+
+            <div class="wave1">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+              </svg>
             </div>
         </div>
         
         <!-- ------- ABOUT ME ------- -->
-        <div id="about" class="page-header min-vh-100" style="background-color: #35283C;" loading="lazy">
-          <span class="mask bg-gradient-dark opacity-5"></span>
+        <div id="about" class="page-header min-vh-100 divider1" style="background-color: #35283C;" loading="lazy">
           <div class="container">
           <div class="row">
               <div class="col-lg-3">
@@ -87,8 +123,15 @@
         </div>
 
         <!-- ------- MY EXPERIENCES ------- -->
-        <div id="about" class="page-header min-vh-100" style="background-image: url(&#39;./static/img/background1.jpg&#39;);" loading="lazy">
+        <div id="experiences" class="page-header min-vh-100" style="background-image: url(&#39;./static/img/background1.jpg&#39;);" loading="lazy">
           <span class="mask bg-gradient-dark opacity-5"></span>
+          
+          <div class="wave2">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
+          
           <div class="container">
           <div class="row">
               <div class="col-lg-3">
@@ -156,11 +199,16 @@
               </div>
           </div>
           </div>
+
+          <div class="wave3">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
         </div>
 
         <!-- ------- SKILLS ------- -->
-        <div id="about" class="page-header min-vh-100" style="background-color: #35283C;" loading="lazy">
-          <span class="mask bg-gradient-dark opacity-5"></span>
+        <div id="skills" class="page-header min-vh-100 divider2" style="background-color: #35283C;" loading="lazy">
           <div class="container">
           <div class="row">
               <div class="col-lg-3">
@@ -179,9 +227,16 @@
           </div>
         </div>
 
-        <!-- ------- SOFT SKILLS ------- -->
-        <div id="about" class="page-header min-vh-100" style="background-image: url(&#39;./static/img/background2.jpg&#39;);" loading="lazy">
+        <!-- ------- SOFT SKILLS & HOBBIES------- -->
+        <div id="hobbies" class="page-header min-vh-100" style="background-image: url(&#39;./static/img/background2.jpg&#39;);" loading="lazy">
           <span class="mask bg-gradient-dark opacity-5"></span>
+
+          <div class="wave2">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
+
           <div class="container">
           <div class="row">
               <div class="col-lg-3">
@@ -198,10 +253,16 @@
               </div>
           </div>
           </div>
+
+          <div class="wave4">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
         </div>
 
         <!-- ------- CONTACT ME ------- -->
-        <div id="about" class="page-header min-vh-100" style="background-color: #35283C;" loading="lazy">
+        <div id="contact" class="page-header min-vh-100 divider3" style="background-color: #35283C;" loading="lazy">
           <span class="mask bg-gradient-dark opacity-5"></span>
           <div class="container">
           <div class="row">
