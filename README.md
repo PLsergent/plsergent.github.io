@@ -2,4 +2,5 @@
 
 Welcome to my GitHub !
 
-[Checkout my personal website !](https://plsergent.github.io/)
+Checkout my personal website !
+Here: https://plsergent.github.io or here: https://plsergent.xyz
