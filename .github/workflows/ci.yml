@@ -11,5 +11,8 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        script: cd plsergent.github.io && git pull
+        key: ${{ secrets.KEY }}
+        port: 22
+        script: |
+          cd plsergent.github.io
+          git pull
