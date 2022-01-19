@@ -8,7 +8,11 @@ jobs:
     - name: Executing remote ssh commands
       uses: garygrossgarten/github-action-ssh@release
       with:
-        command: cd plsergent.github.io && git pull
+        command: |
+          cd plsergent.github.io
+          git config --global user.email "papa.louis59@gmail.com"
+          git config --global user.name "Pierre-Louis Sergent"
+          git pull
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         passphrase: ${{ secrets.PASSWORD }}
