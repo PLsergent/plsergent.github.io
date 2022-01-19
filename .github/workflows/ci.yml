@@ -8,7 +8,7 @@ jobs:
     - name: executing remote ssh commands
       uses: garygrossgarten/github-action-ssh@release
       with:
-        command: ls -a
+        command: cd plsergent.github.io && git pull
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         passphrase: ${{ secrets.PASSWORD }}
