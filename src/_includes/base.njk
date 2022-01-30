@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PL Sergent | {{ title }}</title>
+
+        <link rel="icon" href="{{ '/static/img/favicon.ico' | url }}" type="image/x-icon">
+        <!-- Nucleo Icons -->
+        <link href="{{ '/static/css/nucleo-icons.css' | url }}" rel="stylesheet" />
+        <link href="{{ '/static/css/nucleo-svg.css' | url }}" rel="stylesheet" />
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <link href="{{ '/static/css/material-kit.css' | url }}" rel="stylesheet">
+        <link href="{{ '/static/css/style.css' | url }}" rel="stylesheet">
+        <script src="{{ '/static/js/material-kit.min.js' | url }}"></script>
+        <script src="{{ '/static/js/animation.js' | url }}"></script>
+    </head>
+
+    <body>
+        <div class="container position-sticky z-index-sticky top-0">
+            <div class="row">
+              <div class="col-12">
+                <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+                  <div id="navbar-scroll" class="container-fluid px-0">
+                    <a class="navbar-brand font-weight-bolder ms-sm-3" href="#home" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
+                      <i class="fas fa-keyboard"></i> Pierre-Louis Sergent
+                    </a>
+                    
+                    <ul class="nav nav-pills ms-auto">
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#about">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">About</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#experiences">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Experiences</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#skills">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Skills</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#hobbies">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Hobbies</p>
+                        </a>
+                      </li>
+                      <li class="nav-item ms-lg-auto">
+                        <a class="nav-link me-2" href="#contact">
+                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Contact me</p>
+                        </a>
+                      </li>                   
+                    </ul>
+                    
+                    <a class="nav-link nav-link-icon me-2" href="https://github.com/PLsergent" target="_blank">
+                      <i class="fa fa-github me-1" aria-hidden="true"></i>
+                      <p class="d-inline text-sm z-index-1 font-weight-bold">Github</p>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+        </div>
+
+        <main>
+            {{ content | safe }}
+        </main>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.divider1 {
+    background-image: url("../img/layered-waves-haikei-1.svg");
+}
+
+.divider2 {
+    background-image: url("../img/layered-waves-haikei-2.svg");
+}
+
+.divider3 {
+    background-image: url("../img/layered-waves-haikei-3.svg");
+}
+
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.wave1 .shape-fill {
+    fill: #A89895;
+}
+
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.wave2 .shape-fill {
+    fill: #35283C;
+}
+
+.wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.wave3 .shape-fill {
+    fill: #5C5189;
+}
+
+.wave4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.wave4 .shape-fill {
+    fill: #402C33;
+}
