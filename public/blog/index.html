@@ -3,22 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PL Sergent | {{ title }}</title>
+        <title>PL Sergent | Blog</title>
 
-        <link rel="icon" href="{{ '/static/img/favicon.ico' | url }}" type="image/x-icon">
+        <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
         <!-- Nucleo Icons -->
-        <link href="{{ '/static/css/nucleo-icons.css' | url }}" rel="stylesheet" />
-        <link href="{{ '/static/css/nucleo-svg.css' | url }}" rel="stylesheet" />
+        <link href="/static/css/nucleo-icons.css" rel="stylesheet" />
+        <link href="/static/css/nucleo-svg.css" rel="stylesheet" />
         <!-- Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
         <!-- Material Icons -->
-        <script src="{{ '/static/js/bootstrap.bundle.min.js' | url }}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="/static/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-        <link href="{{ '/static/css/material-kit.css' | url }}" rel="stylesheet">
-        <link href="{{ '/static/css/style.css' | url }}" rel="stylesheet">
-        <script src="{{ '/static/js/material-kit.min.js' | url }}"></script>
-        <script src="{{ '/static/js/base.js' | url }}"></script>
+        <link href="/static/css/material-kit.css" rel="stylesheet">
+        <link href="/static/css/style.css" rel="stylesheet">
+        <script src="/static/js/material-kit.min.js"></script>
+        <script src="/static/js/base.js"></script>
     </head>
 
     <body style="background-color: #35283C !important;">
@@ -83,7 +83,36 @@
         </div>
 
         <main>
-            {{ content | safe }}
+            
+<div class="container" style="margin-top: 80px;" loading="lazy">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-white"><a href="/">Home</a></li>
+          <li class="breadcrumb-item text-dark active" aria-current="page">Blog</li>
+        </ol>
+    </nav>
+    <div class="jumbotron jumbotron-fluid mb-4">
+        <h1 class="display-4 text-white">Blog</h1>
+        <p class="lead">Interesting posts about my life, tech, or projects!</p>
+    </div>
+
+    <div class="row">
+        
+    
+        <div class="col-lg-3 mb-4">
+            <div class="card" data-clickable="true" data-href="/blog/posts/first-post/">
+                <img src="/static/img/posts-img/header-first-post.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">First post</h5>
+                    <p class="card-text">First post teaser</p>
+                    <a href="/blog/posts/first-post/" class="btn btn-primary stretched-link">Read</a>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+</div>
         </main>
     </body>
 </html>

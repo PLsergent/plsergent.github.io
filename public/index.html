@@ -12,56 +12,70 @@
         <!-- Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
         <!-- Material Icons -->
+        <script src="/static/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
         <link href="/static/css/material-kit.css" rel="stylesheet">
         <link href="/static/css/style.css" rel="stylesheet">
         <script src="/static/js/material-kit.min.js"></script>
-        <script src="/static/js/animation.js"></script>
+        <script src="/static/js/base.js"></script>
     </head>
 
-    <body>
+    <body style="background-color: #35283C !important;">
         <div class="container position-sticky z-index-sticky top-0">
             <div class="row">
               <div class="col-12">
                 <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-                  <div id="navbar-scroll" class="container-fluid px-0">
-                    <a class="navbar-brand font-weight-bolder ms-sm-3" href="#home" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
+                  <div class="container-fluid px-0">
+                    <a class="navbar-brand font-weight-bolder ms-sm-3" href="/#home" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
                       <i class="fas fa-keyboard"></i> Pierre-Louis Sergent
                     </a>
-                    
-                    <ul class="nav nav-pills ms-auto">
-                      <li class="nav-item ms-lg-auto">
-                        <a class="nav-link me-2" href="#about">
-                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">About</p>
-                        </a>
-                      </li>
-                      <li class="nav-item ms-lg-auto">
-                        <a class="nav-link me-2" href="#experiences">
-                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Experiences</p>
-                        </a>
-                      </li>
-                      <li class="nav-item ms-lg-auto">
-                        <a class="nav-link me-2" href="#skills">
-                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Skills</p>
-                        </a>
-                      </li>
-                      <li class="nav-item ms-lg-auto">
-                        <a class="nav-link me-2" href="#hobbies">
-                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Hobbies</p>
-                        </a>
-                      </li>
-                      <li class="nav-item ms-lg-auto">
-                        <a class="nav-link me-2" href="#contact">
-                          <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Contact me</p>
-                        </a>
-                      </li>                   
-                    </ul>
-                    
-                    <a class="nav-link nav-link-icon me-2" href="https://github.com/PLsergent" target="_blank">
-                      <i class="fa fa-github me-1" aria-hidden="true"></i>
-                      <p class="d-inline text-sm z-index-1 font-weight-bold">Github</p>
-                    </a>
+
+                    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon mt-2">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                      </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navigation">
+                      <ul class="nav navbar-nav navbar-nav-hover nav-pills ms-auto">
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#about" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">About</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#experiences" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Experiences</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#skills" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Skills</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#hobbies" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Hobbies</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#contact" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Contact me</p>
+                          </a>
+                        </li>                   
+                      </ul>
+
+                      <a class="nav-link nav-link-icon mx-2" href="/blog" role="button">
+                        <p class="d-inline text-sm z-index-1 font-weight-bold">Blog</p>
+                      </a>
+                      <a class="nav-link nav-link-icon mx-2" href="https://github.com/PLsergent" target="_blank" role="button">
+                        <i class="fa fa-github me-1" aria-hidden="true"></i>
+                        <p class="d-inline text-sm z-index-1 font-weight-bold">Github</p>
+                      </a>
+                    </div>
                   </div>
                 </nav>
               </div>
@@ -69,7 +83,8 @@
         </div>
 
         <main>
-            
+            <script src="/static/js/animation.js"></script>
+
 <button id="fixedbutton" class="btn btn-lg btn-dark btn-rounded">
     Next
 </button>
@@ -80,22 +95,33 @@
     <div class="container">
         <div class="d-flex justify-content-center flex-column">
         <div class="row mb-4">
-            <div class="col-md-2 d-flex justify-content-center"><img src="/static/img/coding.png" alt="coding" width="150px"></div>
+            <div class="col-lg-2 d-flex justify-content-center"><img class="img-responsive" src="/static/img/coding.png" alt="coding"></div>
             <div class="col-lg-10 d-flex align-items-center">
-            <h1 class="text-white" style="font-size: 60px;">
+            <h1 class="text-white display-2" style="font-weight: 600 !important">
                 Pierre-Louis Sergent
             </h1>
             </div>
         </div>
         
         <p class="text-white opacity-10 lead pe-5 me-5 fs-4">Welcome to my personal website.</p>
-        <div class="buttons">
-            <a type="button" href="#about" class="btn btn-lg btn-primary mt-4">
-                <i class="fas fa-search"></i> Explore
-            </a>
-            <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank" class="btn btn-lg btn-white mt-4">
-                <i class="fas fa-folder-open"></i> My projects
-            </a>
+        <div class="row buttons">
+            <div class="col-lg-2 d-flex justify-content-center">
+                <a type="button" href="/#about" class="btn btn-lg btn-primary mt-4">
+                    <i class="fas fa-search"></i> Explore
+                </a>
+            </div>
+            
+            <div class="col-lg-2 d-flex justify-content-center">
+                <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank" class="btn btn-lg btn-white mt-4">
+                    <i class="fas fa-code"></i> GitHub
+                </a>
+            </div>
+            
+            <div class="col-lg-2 d-flex justify-content-center">
+                <a type="button" href="/blog" class="btn btn-lg btn-danger mt-4" style="background-color: #35283C;">
+                    <i class="fas fa-folder-open"></i> My blog
+                </a>
+            </div>
         </div>
         </div>
     </div>
