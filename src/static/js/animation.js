@@ -1,6 +1,6 @@
 
 window.onload = function () {
-
+    // Homepage navigation
     function navigateToSections(){
         var nextButton = document.getElementById('fixedbutton');
 

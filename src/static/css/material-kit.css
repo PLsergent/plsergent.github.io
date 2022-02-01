@@ -25433,6 +25433,10 @@ a {
   color: #344767;
 }
 
+p>a {
+  text-decoration: underline;
+}
+
 .text-sm {
   line-height: 1.5;
 }
@@ -25443,7 +25447,8 @@ a {
 
 p,
 .p {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400 !important;
 }
 
 .lead {

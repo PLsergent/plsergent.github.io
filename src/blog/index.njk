@@ -6,12 +6,12 @@ layout: "base.njk"
 <div class="container" style="margin-top: 80px;" loading="lazy">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item text-white"><a href="/">Home</a></li>
+          <li class="breadcrumb-item text-dark"><a href="/">Home</a></li>
           <li class="breadcrumb-item text-dark active" aria-current="page">Blog</li>
         </ol>
     </nav>
     <div class="jumbotron jumbotron-fluid mb-4">
-        <h1 class="display-4 text-white">Blog</h1>
+        <h1 class="display-4 text-light">Blog</h1>
         <p class="lead">Interesting posts about my life, tech, or projects!</p>
     </div>
 
@@ -19,7 +19,7 @@ layout: "base.njk"
         
     {% for post in collections.posts %}
         <div class="col-lg-3 mb-4">
-            <div class="card" data-clickable="true" data-href="{{ post.url }}">
+            <div class="card clickable" data-clickable="true" data-href="{{ post.url }}">
                 <img src="{{ '/static/img/posts-img/' | url }}{{ post.data.img }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.data.title }}</h5>
