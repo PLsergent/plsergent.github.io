@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PL Sergent | {{ title }}</title>
+
+        <link rel="icon" href="{{ '/static/img/favicon.ico' | url }}" type="image/x-icon">
+        <!-- Nucleo Icons -->
+        <link href="{{ '/static/css/nucleo-icons.css' | url }}" rel="stylesheet" />
+        <link href="{{ '/static/css/nucleo-svg.css' | url }}" rel="stylesheet" />
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Material Icons -->
+        <script src="{{ '/static/js/bootstrap.bundle.min.js' | url }}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <link href="{{ '/static/css/material-kit.css' | url }}" rel="stylesheet">
+        <link href="{{ '/static/css/style.css' | url }}" rel="stylesheet">
+        <script src="{{ '/static/js/material-kit.min.js' | url }}"></script>
+        <script src="{{ '/static/js/base.js' | url }}"></script>
+    </head>
+
+    <body style="background-color: #35283C !important;">
+        <div class="container position-sticky z-index-sticky top-0">
+            <div class="row">
+              <div class="col-12">
+                <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+                  <div class="container-fluid px-0">
+                    <a class="navbar-brand font-weight-bolder ms-sm-3" href="/#home" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
+                      <i class="fas fa-keyboard"></i> Pierre-Louis Sergent
+                    </a>
+
+                    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon mt-2">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                      </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navigation">
+                      <ul class="nav navbar-nav navbar-nav-hover nav-pills ms-auto">
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#about" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">About</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#experiences" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Experiences</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#skills" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Skills</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#hobbies" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Hobbies</p>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-lg-auto">
+                          <a class="nav-link mx-2" href="/#contact" role="button">
+                            <p class="d-inline text-sm z-index-1 font-weight-bold text-secondary">Contact me</p>
+                          </a>
+                        </li>                   
+                      </ul>
+
+                      <a class="nav-link nav-link-icon mx-2" href="/blog" role="button">
+                        <p class="d-inline text-sm z-index-1 font-weight-bold">Pettyblog</p>
+                      </a>
+                      <a class="nav-link nav-link-icon mx-2" href="https://github.com/PLsergent" target="_blank" role="button">
+                        <i class="fa fa-github me-1" aria-hidden="true"></i>
+                        <p class="d-inline text-sm z-index-1 font-weight-bold">Github</p>
+                      </a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+        </div>
+
+        <main>
+            {{ content | safe }}
+        </main>
+    </body>
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span>
+          Made by Pierre-Louis Sergent
+          <a class="text-white" href="https://github.com/PLsergent/plsergent.github.io"> @plsergent <i class="fa fa-github me-1" aria-hidden="true"></i></a>
+          using <a class="text-white" href="https://www.11ty.dev/">11ty</a>
+        </span>
+      </div>
+  
+      <div class="nav col-md-4 justify-content-end d-flex">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          Home
+        </a>
+        <a href="/blog" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          Pettyblog
+        </a>
+      </div>
+    </footer>
+</html>
