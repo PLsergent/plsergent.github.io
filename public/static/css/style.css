@@ -16,6 +16,14 @@
     text-justify: inter-word;
 }
 
+.card {
+    color: #35283C;   
+}
+
+td {
+    font-size: 1.25rem;
+}
+
 .card.clickable * {
     cursor: pointer;
 }
