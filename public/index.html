@@ -70,7 +70,7 @@
                       </ul>
 
                       <a class="nav-link nav-link-icon" href="/blog" role="button">
-                        <p class="d-inline text-sm z-index-1 font-weight-bold badge bg-dark">Pettyblog</p>
+                        <p class="d-inline text-sm z-index-1 font-weight-bold badge bg-dark">Plog</p>
                       </a>
                       <a class="nav-link nav-link-icon" href="https://muliversus.plsergent.xyz" target="_blank" role="button">
                         <p class="d-inline text-sm z-index-1 font-weight-bold badge bg-primary">
@@ -97,45 +97,52 @@
 </button>
 
 <!-- ------- HOMEPAGE ------- -->
-<div id="home" class="page-header min-vh-100" style="background-image: url(&#39;/static/img/background.png&#39;);" loading="lazy">
+<div id="home" class="page-header min-vh-100"
+    style="background-image: url(&#39;/static/img/background.png&#39;);" loading="lazy">
     <span class="mask bg-gradient-dark opacity-4"></span>
     <div class="container">
         <div class="d-flex justify-content-center flex-column">
-        <div class="row mb-4">
-            <div class="col-lg-2 d-flex justify-content-center"><img class="img-responsive" src="/static/img/coding.png" alt="coding"></div>
-            <div class="col-lg-10 d-flex align-items-center">
-            <h1 class="text-white display-2" style="font-weight: 600 !important">
-                Pierre-Louis Sergent
-            </h1>
+            <div class="row mb-4">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <canvas height="300px" id="canvas3d"></canvas>
+                </div>
+                <div class="col-lg-8 d-flex align-items-center">
+                    <h1 class="text-white display-2"
+                        style="font-weight: 600 !important; text-shadow: 6px 6px 0px rgb(0 0 0 / 20%)">
+                        Pierre-Louis Sergent
+                    </h1>
+                </div>
             </div>
-        </div>
-        
-        <p class="text-white opacity-10 lead pe-5 me-5 fs-4">Computer Science engineer, DevOps enthousiast.</p>
-        <div class="row buttons">
-            <div class="col-lg-2 d-flex justify-content-center">
-                <a type="button" href="/#about" class="btn btn-lg btn-primary mt-4">
-                    <i class="fas fa-search"></i> Explore
-                </a>
+
+            <p class="text-white opacity-10 lead fs-4">Computer Science engineer, DevOps enthousiast.</p>
+            <div class="row buttons">
+                <div class="col-lg-2 d-flex justify-content-center">
+                    <a type="button" href="/#about" class="btn btn-lg btn-primary mt-4">
+                        <i class="fas fa-search"></i> Explore
+                    </a>
+                </div>
+
+                <div class="col-lg-2 d-flex justify-content-center">
+                    <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank"
+                        class="btn btn-lg btn-white mt-4">
+                        <i class="fas fa-code"></i> GitHub
+                    </a>
+                </div>
+
+                <div class="col-lg-2 d-flex justify-content-center">
+                    <a type="button" href="/blog" class="btn btn-lg btn-danger mt-4" style="background-color: #35283C;">
+                        <i class="fas fa-folder-open"></i> My blog
+                    </a>
+                </div>
             </div>
-            
-            <div class="col-lg-2 d-flex justify-content-center">
-                <a type="button" href="https://github.com/PLsergent?tab=repositories" target="_blank" class="btn btn-lg btn-white mt-4">
-                    <i class="fas fa-code"></i> GitHub
-                </a>
-            </div>
-            
-            <div class="col-lg-2 d-flex justify-content-center">
-                <a type="button" href="/blog" class="btn btn-lg btn-danger mt-4" style="background-color: #35283C;">
-                    <i class="fas fa-folder-open"></i> My blog
-                </a>
-            </div>
-        </div>
         </div>
     </div>
 
     <div class="wave1">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
         </svg>
     </div>
 </div>
@@ -143,242 +150,970 @@
 <!-- ------- ABOUT ME ------- -->
 <div id="about" class="page-header min-vh-100 divider1" style="background-color: #35283C;" loading="lazy">
     <div class="container">
-    <div class="row" style="margin-top: 55px">
-        <div class="col-lg-3">
-        <h1 class="text-white mb-4" style="font-size: 50px;">Who I am</h1>
-        </div>
-        <div class="col-lg-9">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Pierre-Louis Sergent - 24 yo - French</h5>
-                <p class="card-text">
-                    <table>
-                        <tr><td><i class="fa-solid fa-graduation-cap text-dark"></i></td> <td>Master 2 - Student at <b>Efrei</b> engineering school</td></tr>
-                        <tr><td><i class="fa-solid fa-briefcase text-dark"></i></td> <td>Apprenticeship at <b>Orange</b> as a DataOps engineer</td></tr>
-                        <tr><td><i class="fa-solid fa-map-marker-alt text-dark"></i></td> <td>Paris, France</td></tr>
-                        <tr><td><i class="fa-solid fa-code text-dark"></i></td> <td>DevOps, DataOps, Automation, Open-Source, Web, Linux</td></tr>
-                    </table>
-                </p>
+        <div class="row" style="margin-top: 55px">
+            <div class="col-lg-3">
+                <h1 class="text-white mb-4" style="font-size: 50px;">Who I am</h1>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pierre-Louis Sergent - 24 yo - French</h5>
+                        <p class="card-text">
+                        <table>
+                            <tr>
+                                <td class="px-2 py-1"><i class="fa-solid fa-graduation-cap text-dark"></i> </td>
+                                <td>Master 2 - Student at <b><a href="https://www.efrei.fr/">Efrei</a></b> engineering
+                                    school</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 py-1"><i class="fa-solid fa-briefcase text-dark"></i></td>
+                                <td>Apprenticeship at <b><a href="https://www.orange.fr/">Orange</a></b> as a DataOps
+                                    engineer</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 py-1"><i class="fa-solid fa-map-marker-alt text-dark"></i></td>
+                                <td>Paris, France</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 py-1"><i class="fa-solid fa-code text-dark"></i></td>
+                                <td>
+                                    <span class="badge bg-1">DevOps</span>
+                                    <span class="badge bg-1">DataOps</span>
+                                    <span class="badge bg-9">Automation</span>
+                                    <span class="badge bg-gray-600">Open-Source</span>
+                                    <span class="badge bg-10">Web</span>
+                                    <span class="badge bg-3">Linux</span>
+                                </td>
+                            </tr>
+                        </table>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
-    <div class="row mt-4">
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-9">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Why did I choose computer science?</h5>
-                <p class="card-text">Learn more about my personal experience.</p>
-                <a href="#" class="btn btn-primary">About me</a>
+        <div class="row mt-4">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Why did I choose computer science?</h5>
+                        <p class="card-text">Learn more about my personal experience.</p>
+                        <a href="/blog/posts/01-my-journey/" class="btn btn-primary">About me</a>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
     </div>
 </div>
 
 <!-- ------- MY EXPERIENCES ------- -->
-<div id="experiences" class="page-header min-vh-100" style="background-image: url(&#39;/static/img/background1.jpg&#39;);" loading="lazy">
+<div id="experiences" class="page-header min-vh-100"
+    style="background-image: url(&#39;/static/img/background1.jpg&#39;);" loading="lazy">
     <span class="mask bg-gradient-dark opacity-5"></span>
-    
+
     <div class="wave2">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
     </div>
-    
+
     <div class="container">
-        <div class="row"  style="margin-top: 55px">
+        <div class="row" style="margin-top: 55px">
             <div class="col-lg-3">
-            <h1 class="text-white mb-4" style="font-size: 50px;">Experiences</h1>
+                <h1 class="text-white mb-4" style="font-size: 50px;">Experiences</h1>
             </div>
             <div class="col-lg-9">
-            <div class="row">
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">DataOps apprenticeship @Orange</h5>
-                    <p class="card-text">
-                        <table>
-                            <tr><td><i class="fa-solid fa-calendar-alt text-dark"></i></td> <td>Sept 2020 - Sept 2023</td></tr>
-                            <tr><td><i class="fa-solid fa-map-marker-alt text-dark"></i></td> <td>Villejuif, France</td></tr>
-                            <tr><td><i class="fa-solid fa-code text-dark"></i></td> <td>Cloud, Automation, Terraform, Gitlab CI</td></tr>
-                        </table>
-                    </p>
-                    <a href="#" class="btn btn-primary">Learn more</a>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">DataOps apprenticeship @Orange</h5>
+                                <p class="card-text">
+                                <table>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-calendar-alt text-dark"></i></td>
+                                        <td>Sept 2020 - Sept 2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-map-marker-alt text-dark"></i></td>
+                                        <td>Villejuif, France</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-code text-dark"></i></td>
+                                        <td>
+                                            <span class="badge-sm bg-4">Cloud</span>
+                                            <span class="badge-sm bg-9">Automation</span>
+                                            <span class="badge-sm bg-11">Terraform</span>
+                                            <span class="badge-sm bg-5">Gitlab CI</span>
+                                            <span class="badge-sm bg-12">k8s</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">DevOps apprenticeship @Itelis</h5>
+                                <p class="card-text">
+                                <table>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-calendar-alt text-dark"></i></td>
+                                        <td>Sept 2019 - Sept 2020</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-map-marker-alt text-dark"></i></td>
+                                        <td>Paris, France</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-code text-dark"></i></td>
+                                        <td>
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-gray-600">Capistrano</span>
+                                            <span class="badge-sm bg-6">TS</span>
+                                            <span class="badge-sm bg-13">NodeJS</span>
+                                            <span class="badge-sm bg-12">Docker</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Junior Web dev @Spotook startup</h5>
+                                <p class="card-text">
+                                <table>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-calendar-alt text-dark"></i></td>
+                                        <td>Febr 2019 - Jul 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-map-marker-alt text-dark"></i></td>
+                                        <td>Lausanne, Switzerland</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-code text-dark"></i></td>
+                                        <td>
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-13">Django</span>
+                                            <span class="badge-sm bg-gray-600">Entrepreneurship</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Junior Web dev @ITLink</h5>
+                                <p class="card-text">
+                                <table>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-calendar-alt text-dark"></i></td>
+                                        <td>Nov 2018 - Jan 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-map-marker-alt text-dark"></i></td>
+                                        <td>Rennes, France</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-2 py-1"><i class="fa-solid fa-code text-dark"></i></td>
+                                        <td>
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-13">Django</span>
+                                            <span class="badge-sm bg-gray-600">User specifications</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">DevOps apprenticeship @Itelis</h5>
-                    <p class="card-text">
-                        <table>
-                            <tr><td><i class="fa-solid fa-calendar-alt text-dark"></i></td> <td>Sept 2019 - Sept 2020</td></tr>
-                            <tr><td><i class="fa-solid fa-map-marker-alt text-dark"></i></td> <td>Paris, France</td></tr>
-                            <tr><td><i class="fa-solid fa-code text-dark"></i></td> <td>Capistrano, Automation, TypeScript, Docker</td></tr>
-                        </table>
-                    </p>
-                    <a href="#" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">Junior Web dev @Spotook startup</h5>
-                    <p class="card-text">
-                        <table>
-                            <tr><td><i class="fa-solid fa-calendar-alt text-dark"></i></td> <td>Febr 2019 - Jul 2019</td></tr>
-                            <tr><td><i class="fa-solid fa-map-marker-alt text-dark"></i></td> <td>Lausanne, Switzerland</td></tr>
-                            <tr><td><i class="fa-solid fa-code text-dark"></i></td> <td>Python, Django, Entrepreneurship</td></tr>
-                        </table>
-                    </p>
-                    <a href="#" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">Junior Web dev @ITLink</h5>
-                    <p class="card-text">
-                        <table>
-                            <tr><td><i class="fa-solid fa-calendar-alt text-dark"></i></td> <td>Nov 2018 - Jan 2019</td></tr>
-                            <tr><td><i class="fa-solid fa-map-marker-alt text-dark"></i></td> <td>Rennes, France</td></tr>
-                            <tr><td><i class="fa-solid fa-code text-dark"></i></td> <td>Python, Django, User specifications</td></tr>
-                        </table>
-                    </p>
-                    <a href="#" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-3">
-            <h1 class="text-white mb-4" style="font-size: 50px;">Projects</h1>
+                <h1 class="text-white mb-4" style="font-size: 50px;">Projects</h1>
             </div>
             <div class="col-lg-9">
-            <div class="row">
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">Osu automate</h5>
-                    <p class="card-text">
-                        Personal project: tool to sync the osu! files with google drive. 
-                        Allows the user to play osu! on any computer without having to download the beatmaps again. 
-                        Automatically upload and download new songs from the drive.
-                        Written in Python.
-                    </p>
-                    <a href="https://github.com/PLsergent/osu-automate" class="btn btn-primary">Learn more</a>
+                <div class="row">
+                    <!-- First column -->
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            Osu automate <img src="/static/img/index/osu_logo.png" width="25px">
+                                        </div>
+                                        <div class="col-lg-6 text-end">
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-gray-600">API</span>
+                                        </div>
+                                    </div>
+                                </h5>
+                                <p class="card-text">
+                                    Tool to sync the osu! files with Google Drive.
+                                    Allows the user to play <a href="https://osu.ppy.sh/home">osu!</a> on any computer
+                                    without having to download the beatmaps again.
+                                    Automatically upload and download new songs from the drive.
+                                </p>
+                                <a href="https://github.com/PLsergent/osu-automate" class="btn btn-primary">Learn
+                                    more</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            Lockatme <i class="fa-solid fa-eye"></i>
+                                        </div>
+                                        <div class="col-lg-6 text-end">
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-3">Linux</span>
+                                        </div>
+                                    </div>
+                                </h5>
+                                <p class="card-text">
+                                    Lockatme is a screen locker that works with modules. It allows the user to use the
+                                    same locker for different types of authentication.
+                                    Capable of facial recognition.
+                                </p>
+                                <a href="https://github.com/sweenu/lockatme" class="btn btn-primary">Learn more</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">More projects on GitHub <i class="fa fa-github me-1"
+                                        aria-hidden="true"></i></h5>
+                                <p class="card-text">
+                                    Explore all my repositories on Github!
+                                </p>
+                                <a href="https://github.com/PLsergent" class="btn btn-primary">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second column -->
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            plsergent.github.io <i class="fa-solid fa-user"></i>
+                                        </div>
+                                        <div class="col-lg-6 text-end">
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-gray-600">11ty</span>
+                                        </div>
+                                    </div>
+                                </h5>
+                                <p class="card-text">
+                                    Personal website, used as a resume and to know more about me.
+                                </p>
+                                <a href="https://github.com/PLsergent/plsergent.github.io" class="btn btn-primary">Learn
+                                    more</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            MuLIVErsus <img src="/static/img/index/multiversus_logo.png" width="60px">
+                                        </div>
+                                        <div class="col-lg-6 text-end">
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-13">Fast API</span>
+                                        </div>
+                                    </div>
+                                </h5>
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">
+                                    Website to track and explore stats about the game <a
+                                        href="https://multiversus.com/">Multiversus</a>.
+                                    It lets you see your stats and rankings as well as the rankings of others, you
+                                    can also see the stats of your live opponent.
+                                </p>
+                                <a href="https://muliversus.plsergent.xyz" class="btn btn-primary">Learn more</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            Valstore <img src="/static/img/index/valorant_logo.png" width="25px">
+                                        </div>
+                                        <div class="col-lg-6 text-end">
+                                            <span class="badge-sm bg-10">Web</span>
+                                            <span class="badge-sm bg-6">Python</span>
+                                            <span class="badge-sm bg-13">Flask</span>
+                                        </div>
+                                    </div>
+                                </h5>
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">
+                                    Allow the user to see what is in his Valorant store without having to open the game.
+                                </p>
+                                <a href="https://github.com/PLsergent/valorant-store" class="btn btn-primary">Learn
+                                    more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">Lockatme</h5>
-                    <p class="card-text">
-                        School project: lockatme is a screen locker that works with modules. It allows the user to use the same locker for different types of authentication. 
-                        Capable of facial recognition. Written in Python.
-                    </p>
-                    <a href="https://github.com/sweenu/lockatme" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">Valstore</h5>
-                    <p class="card-text">
-                        Personal project: allow the user to see what is in his Valorant store without having to open the game.
-                        Web app written in Python/Flask.
-                    </p>
-                    <a href="https://github.com/PLsergent/valorant-store" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                    <h5 class="card-title">plsergent.github.io</h5>
-                    <p class="card-text">
-                        Personal project: personal website, used as a resume and to know more about me.
-                        Written in HTML/CSS/JS, using 11ty.
-                    </p>
-                    <a href="https://github.com/PLsergent/plsergent.github.io" class="btn btn-primary">Learn more</a>
-                    </div>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="text-white mb-4" style="font-size: 50px;">Education</h1>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <tr>
+                                    <td><b>2020-2023</b></td>
+                                    <td>Master degree apprenticeship @<b>Efrei engineer school</b>, major: computer science</td>
+                                </tr>
+                                <tr>
+                                    <td><b>2019-2020</b></td>
+                                    <td>Licence pro degree apprenticeship @<b>Sorbonne University</b>, major: mobile and web dev</td>
+                                </tr>
+                                <tr>
+                                    <td><b>2017-2019</b></td>
+                                    <td>DUT degree Computer science @<b>IUT University Claude Bernard Lyon 1</b></td>
+                                </tr>
+                                <tr>
+                                    <td><b>2016</b></td>
+                                    <td>Bac S, graduated with honours "bien" @<b>Lycée Sainte Famille</b>, major: mathematics</td>
+                                </tr>
+                            </table>
+                        </div>  
+                        <a href="/blog/posts/01-my-journey/" class="btn btn-primary">About me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <div class="wave3">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
     </div>
 </div>
 
 <!-- ------- SKILLS ------- -->
 <div id="skills" class="page-header min-vh-100 divider2" style="background-color: #35283C;" loading="lazy">
     <div class="container">
-    <div class="row" style="margin-top: 55px">
-        <div class="col-lg-3">
-        <h1 class="text-white mb-4" style="font-size: 50px;">Skills</h1>
-        </div>
-        <div class="col-lg-9">
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row" style="margin-top: 55px">
+            <div class="col-lg-3">
+                <h1 class="text-white mb-4" style="font-size: 50px;">Skills</h1>
+            </div>
+            <div class="col-lg-9">
+                <div class="card p-lg-4">
+                    <div class="accordion" id="accordionSkills">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingL">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-L" aria-expanded="false" aria-controls="flush-L">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-sharp fa-solid fa-language"></i>
+                                                    </h3>
+                                                </td>
+                                                <td><span class="badge bg-6 mx-1">Python <img
+                                                            src="/static/img/index/python_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-6 mx-1">TS <img
+                                                            src="/static/img/index/ts_logo.png" height="25px"></span>
+                                                </td>
+                                                <td><span class="badge bg-6 mx-1">JS <img
+                                                            src="/static/img/index/js_logo.png" height="25px"></span>
+                                                </td>
+                                                <td><span class="badge bg-6 mx-1">Java <img
+                                                            src="/static/img/index/java_logo.png" height="25px"></span>
+                                                </td>
+                                                <td><span class="badge bg-6 mx-1">C# <img
+                                                            src="/static/img/index/csharp_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-6 mx-1">Go <img
+                                                            src="/static/img/index/golang_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-6 mx-1">...</span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-L" class="accordion-collapse collapse px-4" aria-labelledby="flush-headingL"
+                                data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    Most of my personal projects are made with <b>Python</b>. This is a personal
+                                    preference, I feel like the language is very easy to learn and to use. I have a lot
+                                    of experience with
+                                    it and with different frameworks and libraries.
+                                    <br><br>
+                                    I also have experience with <b>Typescript</b> and <b>Javascript</b>. I used Typescript for the
+                                    backend of the web app I made for Itelis. I really enjoyed using it. And of course
+                                    Javascript is a language I used
+                                    a lot to build backends (mostly for school projects) and for the frontend of
+                                    most my projects.
+                                    <br><br>
+                                    Of course I had the opportunity to use a lot of other languages for school projects like <b>C#</b>,
+                                    <b>Java</b>, <b>C++</b>, <b>C</b>, <b>Php</b> etc...
+                                    <br><br>
+                                    Recently I started learning <b>Go</b> to contribute on an open source project we use at Orange.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingDocker">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseDocker" aria-expanded="false"
+                                    aria-controls="flush-collapseDocker">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-solid fa-box-open"></i></h3>
+                                                </td>
+                                                <td><span class="badge bg-12 mx-1">Docker <img
+                                                            src="/static/img/index/docker_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-12 mx-1">Kubernetes <img
+                                                            src="/static/img/index/k8s_logo.png" height="25px"></span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseDocker" class="accordion-collapse collapse px-4"
+                                aria-labelledby="flush-headingDocker" data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    I have quite a lot of experience using <b>Docker</b>. It's a tool I use frequently
+                                    at work and at home, for instance to build and deploy my projects. I also like to use it
+                                    for temporary projects environments at school.
+                                    <br><br>
+                                    On the other end I don't have a lot of experience with <b>Kubernetes</b>, I started really using it
+                                    during my apprenticeship at Orange but I still have a lot to learn about it.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFW">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFW" aria-expanded="false"
+                                    aria-controls="flush-collapseFW">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-solid fa-screwdriver-wrench"></i>
+                                                    </h3>
+                                                </td>
+                                                <td><span class="badge bg-13 mx-1">Django <img
+                                                            src="/static/img/index/django_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-13 mx-1">Flask <img
+                                                            src="/static/img/index/flask_logo.png" height="25px"></span>
+                                                </td>
+                                                <td><span class="badge bg-13 mx-1">FastAPI <img
+                                                            src="/static/img/index/fastAPI_logo.png"
+                                                            height="25px"></span></td>
+                                                <td><span class="badge bg-13 mx-1">NodeJs <img
+                                                            src="/static/img/index/nodejs_logo.png"
+                                                            height="25px"></span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFW" class="accordion-collapse collapse px-4"
+                                aria-labelledby="flush-headingFW" data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    Here are some of the frameworks I used the most. I started to learn <b>Django</b>
+                                    during my first internship at IT-link. I learned it from scratch and in autonomy to build
+                                    a rather simple to use but complex app. I really enjoyed using it and I still use it for big
+                                    projects. I also used it during my mission at Spotook.
+                                    <br><br>
+                                    For my personal projects and at Orange I used <b>Flask</b> which is a lighter, yet more
+                                    modular framework. But recently I started working with <b>FastAPI</b> with is also a fabulous
+                                    tool to use. One of the fastest Python framework using asynchronous request.
+                                    <br><br>
+                                    Speaking of asynchronous, I used <b>NodeJS</b> multiple times both for school
+                                    projects and at Itelis, alongside Typescript. I can name a few others like: <b>Express</b>,
+                                    <b>Symfony</b>, <b>Vue</b> (frontend), <b>Bottle</b>, etc...
+                                    <br><br>
+                                    I used multiple backend frameworks during my formations and professional experiences and
+                                    I really like to explore new ones. I'm always looking for new ones to try.
+                                    For instance I really enjoy this YouTube channel for that purpose: <a
+                                        href="https://www.youtube.com/c/Fireship/featured">Fireship</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingAuto">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseAuto" aria-expanded="false"
+                                    aria-controls="flush-collapseAuto">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-solid fa-gear"></i></h3>
+                                                </td>
+                                                <td><span class="badge bg-11 mx-1">Terraform <img
+                                                            src="/static/img/index/tf_logo.png" height="25px"></span>
+                                                </td>
+                                                <td><span class="badge bg-5 mx-1">Gitlab CI <img
+                                                            src="/static/img/index/gitlab_logo.png"
+                                                            height="25px"></span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseAuto" class="accordion-collapse collapse px-4"
+                                aria-labelledby="flush-headingAuto" data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    I discovered <b>Terraform</b> during my apprenticeship at Orange. This tool used to deploy
+                                    cloud infrastruture is really powerful and I really enjoy using it. At Orange we primarily use it
+                                    to deploy our infrastructure on <b>GCP</b>, but I also had the opportunity to utilize my skills during my studies
+                                    to deploy an application on <b>AWS</b>.
+                                    <br><br>
+                                    Alongside Terraform I also used <b>Gitlab CI</b>, principally at Orange, where it's our main CI tool.
+                                    I had the chance to explore a lot of scenarios with it, from simple to complex ones, but I'm eager to learn
+                                    even more about it or other CI tools.
+                                    <br><br>
+                                    I also have a little bit of experience with <b>GitHub Actions</b>, but I'm not as familiar with it as I am with Gitlab CI.
+                                    I like to automate my projects deployment whom are hosted on GitHub.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingGeneral">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseGeneral" aria-expanded="false"
+                                    aria-controls="flush-collapseGeneral">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-solid fa-layer-group"></i></h3>
+                                                </td>
+                                                <td><span class="badge bg-4 mx-1">Cloud</span></td>
+                                                <td><span class="badge bg-9 mx-1">Automation</span></td>
+                                                <td><span class="badge bg-3 mx-1">Linux</span></td>
+                                                <td><span class="badge bg-10 mx-1">Web</span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseGeneral" class="accordion-collapse collapse px-4"
+                                aria-labelledby="flush-headingGeneral" data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    Those are the general topic I'm interested in and I encountered during my studies and
+                                    professional experiences. I'm always eager to learn more about them.
+                                    <br><br>
+                                    <ul>
+                                        <li>
+                                            <b>Cloud</b>:
+                                            <ul>
+                                                <li>Google Cloud Platform (most experience)</li>
+                                                <li>AWS</li>
+                                                <li>Microsoft Azure (AZ900 certification coming soon)</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>Automation</b>:
+                                            <ul>
+                                                <li>Gitlab CI (at Orange)</li>
+                                                <li>Github Actions (personal projects) </li>
+                                                <li>Docker</li>
+                                                <li>Kubernetes</li>
+                                                <li>Terraform</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>Linux</b>:
+                                            <ul>
+                                                <li>Distros: Arch, Ubuntu, ElementaryOS</li>
+                                                <li>Shell: Bash, Scripting</li>
+                                                <li>WSL (because you know)</li>
+                                                <li>General system knowledge</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <b>Web</b>:
+                                            <ul>
+                                                <li>Multiple webapp development</li>
+                                                <li>Experiences with:
+                                                    <ul>
+                                                        <li>Multiple languages: Python, JS, TS</li>
+                                                        <li>Multiple frameworks: Django, Flask, Express, Symfony, FastAPI...</li>
+                                                        <li>HTML, CSS, Vue</li>
+                                                        <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+                                                        <li>Cloud deployments cloud: GCP, AWS, Terraform, Gitlab CI</li>
+                                                        <li>Personal server deployments: Docker, Caddy, GitHub Actions</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingRandom">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseRandom" aria-expanded="false"
+                                    aria-controls="flush-collapseRandom">
+                                    <div class="table-responsive me-3">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="iconlist"><i class="fa-solid fa-bars"></i></h3>
+                                                </td>
+                                                <td><span class="badge bg-gray-600 mx-1">API</span></td>
+                                                <td><span class="badge bg-gray-600 mx-1">11ty</span></td>
+                                                <td><span class="badge bg-gray-600 mx-1">Capistrano</span></td>
+                                                <td><span class="badge bg-gray-600 mx-1">User specifications</span></td>
+                                                <td><span class="badge bg-gray-600 mx-1">Entrepreneurship</span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseRandom" class="accordion-collapse collapse px-4"
+                                aria-labelledby="flush-headingRandom" data-bs-parent="#accordionSkills">
+                                <div class="accordion-body">
+                                    Those are the general skills or technologies I encountered at least once during my studies
+                                    and professional experiences. I'm not an expert in any of them, but I'm willing to use them again
+                                    or to put my experience to good use.
+                                    <ul>
+                                        <li><b>API</b>: API usage and development</li>
+                                        <li><b>11ty</b>: used to build this website, static website generator</li>
+                                        <li><b>Capistrano</b>: used to automate deployments at Itelis on on-premises servers</li>
+                                        <li><b>User specifications</b>: wrote user specifications multiple times, like to do it to
+                                            understand the needs of the users and formalize them</li>
+                                        <li><b>Entrepreneurship</b>: startup co-founder at Spotook, really challenging experience but
+                                            I learned a lot</li>
+                                    </ul> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
     </div>
 </div>
 
 <!-- ------- SOFT SKILLS & HOBBIES------- -->
-<div id="hobbies" class="page-header min-vh-100" style="background-image: url(&#39;/static/img/background2.jpg&#39;);" loading="lazy">
+<div id="hobbies" class="page-header min-vh-100"
+    style="background-image: url(&#39;/static/img/background2.jpg&#39;);" loading="lazy">
     <span class="mask bg-gradient-dark opacity-5"></span>
 
     <div class="wave2">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
     </div>
 
     <div class="container">
-    <div class="row" style="margin-top: 55px">
-        <div class="col-lg-3">
-        <h1 class="text-white mb-4" style="font-size: 50px;">Soft skills & hobbies</h1>
-        </div>
-        <div class="col-lg-9">
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row" style="margin-top: 55px">
+            <div class="col-lg-3">
+                <h1 class="text-white mb-4" style="font-size: 50px;">Soft skills & hobbies</h1>
+            </div>
+            <div class="col-lg-9">
+                <div class="card mb-3 px-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/static/img/index/softskills.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body px-lg-5">
+                                <h5 class="card-title">Soft skills</h5>
+                                <div class="accordion" id="accordionSoftSkills">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-controls="collapseOne">
+                                                <i class="fa-solid fa-check"></i> &nbsp Problem solving
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionSoftSkills">
+                                            <div class="accordion-body">
+                                                Since my young age I like to solve problems (building Legos).
+                                                I like to understand how things work and how to make them work better.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <i class="fa-solid fa-bullhorn"></i> &nbsp Communication skills
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionSoftSkills">
+                                            <div class="accordion-body">
+                                                Outgoing and friendly, I like to talk with people when I'm comfortable.
+                                                I'm usually pretty comfortable in social settings.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <i class="fa-solid fa-user-group"></i> &nbsp Interpersonal skills
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionSoftSkills">
+                                            <div class="accordion-body">
+                                                I like to work in a team, I'm a team player. I like to share my knowledge
+                                                and learn from others. I believe that I'm pretty good at expressing my needs and results.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                <i class="fa-solid fa-screwdriver-wrench"></i> &nbsp Creative thinking
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="headingFour" data-bs-parent="#accordionSoftSkills">
+                                            <div class="accordion-body">
+                                                I like to build little projects with my new ideas and I'm always looking for new ones.
+                                                I like to create content out of it.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                aria-expanded="false" aria-controls="collapseFive">
+                                                <i class="fa-solid fa-microscope"></i> &nbsp Curious mind
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="headingFive" data-bs-parent="#accordionSoftSkills">
+                                            <div class="accordion-body">
+                                                I like to learn new things and I'm always curious about new technologies.
+                                                I'll always ask my coworkers about their tasks and try to understand how they work.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 language-card">
+                    <div class="row g-0">
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Languages</h5>
+                                <table>
+                                    <tr>
+                                        <td><img src="/static/img/index/france_icon.png" class="img-fluid rounded-start"
+                                                alt="..."></td>
+                                        <td class="p-2">French</td>
+                                        <td class="p-2"><span class="badge bg-1">Native</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="/static/img/index/kingdom_united_icon.png"
+                                                class="img-fluid rounded-start" alt="...">
+                                            <img src="/static/img/index/usa_icon.png" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </td>
+                                        <td class="p-2">English</td>
+                                        <td class="p-2"><span class="badge bg-2">Fluent - C1</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="/static/img/index/germany_icon.png"
+                                                class="img-fluid rounded-start" alt="..."></td>
+                                        <td class="p-2">German</td>
+                                        <td class="p-2"><span class="badge bg-5">Beginner</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="/static/img/index/spain_icon.png" class="img-fluid rounded-start"
+                                                alt="..."></td>
+                                        <td class="p-2">Spanish</td>
+                                        <td class="p-2"><span class="badge bg-5">Beginner</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="/static/img/index/language.png" height="284px" class="rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 px-lg-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/static/img/index/hobbies.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Hobbies</h5>
+                                <div class="accordion" id="accordionHobbies">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hheadingOne">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#ccollapseOne"
+                                                aria-controls="ccollapseOne">
+                                                <i class="fa-solid fa-gamepad"></i> &nbsp Video games
+                                            </button>
+                                        </h2>
+                                        <div id="ccollapseOne" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="hheadingOne" data-bs-parent="#accordionHobbies">
+                                            <div class="accordion-body">
+                                                Since my young age I've been playing video games. I like to play with my friends
+                                                and I'm always looking for new games to play.
+                                                Some games I play: <b>League of Legends</b>, <b>Valorant</b>, <b>Overwatch</b>,
+                                                <b>Osu</b>, <b>Brawlhalla</b>, <b>Multiversus</b>, etc...
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hheadingTwo">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#ccollapseTwo"
+                                                aria-expanded="false" aria-controls="ccollapseTwo">
+                                                <i class="fa-solid fa-music"></i> &nbsp Music/concert
+                                            </button>
+                                        </h2>
+                                        <div id="ccollapseTwo" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="hheadingTwo" data-bs-parent="#accordionHobbies">
+                                            <div class="accordion-body">
+                                                I'm a big fan of music. I listen to a lot of different genres.
+                                                I also like to go to concerts. The last one I went to featured <b>Kendrick Lamar</b>.
+                                                <img class="img-fluid" src="/static/img/index/kendrick.png" width="450px" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hheadingThree">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#ccollapseThree"
+                                                aria-expanded="false" aria-controls="ccollapseThree">
+                                                <i class="fa-solid fa-shirt"></i> &nbsp Sneakers/mode
+                                            </button>
+                                        </h2>
+                                        <div id="ccollapseThree" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="hheadingThree" data-bs-parent="#accordionHobbies">
+                                            <div class="accordion-body">
+                                                I'm a big fan of sneakers and mode. I like to buy new clothes and sneakers.
+                                                Some shoes I like: <b>Air Jordan 1</b>, <b>Air Jordan 3</b>, <b>Air Jordan 4</b>,
+                                                anyway you got it <img src="/static/img/index/jordan.png" width="25px" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hheadingFour">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#ccollapseFour"
+                                                aria-expanded="false" aria-controls="ccollapseFour">
+                                                <i class="fa-solid fa-basketball"></i> &nbsp Sports
+                                            </button>
+                                        </h2>
+                                        <div id="ccollapseFour" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="hheadingFour" data-bs-parent="#accordionHobbies">
+                                            <div class="accordion-body">
+                                                For 10 years I've played <b>basketball</b> in a team. I tried different other sports
+                                                like tennis, boxing, cycling, football, etc...
+                                                I also like to go to the gym.
+                                                <br>
+                                                Watching sport is also an activity that I find really entertaining. I like to
+                                                share my emotions with my friends while watching a match.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="hheadingFive">
+                                            <button class="accordion-button collapsed px-4" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#ccollapseFive"
+                                                aria-expanded="false" aria-controls="ccollapseFive">
+                                                <i class="fa-regular fa-keyboard"></i> &nbsp Keyboards
+                                            </button>
+                                        </h2>
+                                        <div id="ccollapseFive" class="accordion-collapse collapse px-4"
+                                            aria-labelledby="hheadingFive" data-bs-parent="#accordionHobbies">
+                                            <div class="accordion-body">
+                                                I'm a big fan of mechanical keyboards. It's an hobby I had for a couple
+                                                of years now. I like to build new keyboards and bring them to work!
+                                                I also like to have a nice setup that goes around it!
+                                                <br>
+                                                <br>
+                                                <i>Psst if you read this, go to the top of the page and try to type 'pls' and press enter
+                                                    to see what happens!
+                                                </i>
+                                                <img class="img-fluid" src="/static/img/index/keeb.png" width="450px" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
     </div>
 
     <div class="wave4">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
     </div>
 </div>
 
@@ -386,22 +1121,80 @@
 <div id="contact" class="page-header min-vh-100 divider3" style="background-color: #35283C;" loading="lazy">
     <span class="mask bg-gradient-dark opacity-5"></span>
     <div class="container">
-    <div class="row" style="margin-top: 55px">
-        <div class="col-lg-3">
-        <h1 class="text-white mb-4" style="font-size: 50px;">Contact me</h1>
-        </div>
-        <div class="col-lg-9">
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row" style="margin-top: 55px">
+            <div class="col-lg-3">
+                <h1 class="text-white mb-4" style="font-size: 50px;">Contact me</h1>
+            </div>
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Where to find me?</h5>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <tr>
+                                    <td class="px-2"><i class="fas fa-envelope"></i></td>
+                                    <td id="mail"><a href="mailto:pldev.sergent@gmail.com">pldev.sergent@gmail.com</a>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary" onclick="copyme('mail')"
+                                            style="margin: 0px;">
+                                            Copy
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-2"><i class="fa-brands fa-discord"></i></td>
+                                    <td id="discord">
+                                        PL / Aikawa Towa#5031
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary" onclick="copyme('discord')"
+                                            style="margin: 0px;">
+                                            Copy
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-2"><i class="fa-brands fa-linkedin"></i></td>
+                                    <td><a href="https://linkedin.com/in/pierre-louis-s">LinkedIn @Pierre-Louis
+                                            Sergent</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-2"><i class="fa-brands fa-github"></i></td>
+                                    <td><a href="https://github.com/PLsergent">GitHub @plsergent</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-2"><i class="fa-brands fa-stack-overflow"></i></td>
+                                    <td><a href="https://stackoverflow.com/users/10658662/pl-sergent">Stack Overflow</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
     </div>
 </div>
+
+<script>
+    function copyme(id) {
+        // Get the text field
+        var copyText = document.getElementById(id);
+        // Copy the text inside the text field 
+        navigator.clipboard.writeText(copyText.innerText);
+    }
+</script>
+<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+<script type="importmap">
+    {
+        "imports": {
+            "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@0.9.130/build/runtime.js"
+        }
+    }
+</script>
+<script type="module" src="/static/js/spline_keyboard.js"></script>
         </main>
     </body>
     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -418,7 +1211,7 @@
           Home
         </a>
         <a href="/blog" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          Pettyblog
+          Plog
         </a>
         <a href="https://muliversus.plsergent.xyz" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           Muliversus

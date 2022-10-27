@@ -24,5 +24,8 @@
   "homepage": "https://github.com/PLsergent/plsergent.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "@splinetool/runtime": "^0.9.130"
   }
 }

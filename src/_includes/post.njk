@@ -3,6 +3,8 @@ title: Post
 layout: "base.njk"
 ---
 
+<link href="{{ '/static/css/posts.css' | url }}" rel="stylesheet">
+
 {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.posts | getNextCollectionItem(page) %}
 
@@ -27,8 +29,7 @@ layout: "base.njk"
                 <div class="col">
                     <div class="clearfix justify">
                         <figure class="img-fluid rounded col-md-4 mb-3 ms-md-3 rounded float-sm-end">
-                            <img src="{{ '/static/img/posts-img/' | url }}{{ img }}" class="" alt="...">
-                            <figcaption class="figure-caption">11ty logo.</figcaption>
+                            <img src="{{ '/static/img/posts-img/' | url }}{{ img }}" class="img-thumbnail" alt="...">
                         </figure>
                         
                         {{ content | safe }}
