@@ -33,4 +33,6 @@ window.onload = function () {
     }
 
     navigateToSections();
+    ScrollReveal({ reset: true })
+    ScrollReveal().reveal('.card', { delay: 100 });
 }
