@@ -20,7 +20,7 @@ layout: "base.njk"
     
     <div class="card">
         <div class="card-header bg-light">
-            <h4 class="text-primary">{{ title }}</h5>
+            <h4 class="text-pl">{{ title }}</h5>
             <h6 class="text-muted mb-0">{{ teaser }}</h5>
         </div>
         <hr class="p-0 m-0">
@@ -31,6 +31,17 @@ layout: "base.njk"
                         <figure class="img-fluid rounded col-md-4 mb-3 ms-md-3 rounded float-sm-end">
                             <img src="{{ '/static/img/posts-img/' | url }}{{ img }}" class="img-thumbnail" alt="...">
                         </figure>
+                        <a href="/blog" class="card-link btn btn-sm btn-dark blog" style="">Back to blog</a>
+                        {% if previousPost %}
+                            <a href="{{ previousPost.url }}" class="btn btn-sm btn-primary blog" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ previousPost.data.title }}">
+                                Previous post
+                            </a>
+                        {% endif %}
+                        {% if nextPost %}
+                            <a href="{{ nextPost.url }}" class="btn btn-sm btn-primary blog" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ nextPost.data.title }}">
+                                Next post
+                            </a>
+                        {% endif %}
                         
                         {{ content | safe }}
                     </div>
