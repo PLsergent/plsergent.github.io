@@ -6,7 +6,7 @@ window.onload = function () {
 
         var sections = ["home", "about", "experiences", "skills", "hobbies", "contact"]
     
-        nextButton.addEventListener('click', event => {
+        nextButton.addEventListener('click', () => {
             var location = window.location.href.split("#")[1]
             
             if (!sections.includes(location)) {
