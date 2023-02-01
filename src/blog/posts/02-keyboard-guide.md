@@ -122,35 +122,7 @@ The keeb community has its vocabulary. You'll need to learn it to understand wha
 
 **About keyboard itself**
 
-- **Switches** - the part of the keyboard that registers the keypresses. There are a lot of different types of switches, and they all have different characteristics.
-
-- **Keycaps** - the part of the keyboard that you press. They come in different shapes, sizes, and colors.
-
-- **Plate** - the part of the keyboard that holds the switches and the keycaps. It can be made of different materials (aluminum, FR4, polycarbonate, etc.)
-
-- **Case** - the part of the keyboard that holds the plate and the PCB.
-
-- **PCB** - the part of the keyboard that holds the switches and the diodes. It's also where the microcontroller is.
-
-- **Stabilizers** - the part of the keyboard that holds the keycaps in place. They are used for the spacebar, the shift keys and the enter.
-
-- **Dampeners** - the part of the keyboard that reduces the sound of the switches. They can be foam, o-rings, or springs.
-
-- **LEDs** - the part of the keyboard that lights up the keycaps. They can be RGB, single color, or even no LEDs.
-
-- **Layout** - literally the layout of the keyboard. It can be 60%, 65%, 75%, 80%, 90%, 100%, TKL, 1800, 1900, etc. (more on that later), there is also a distinction between ANSI and ISO layouts.
-
-- **Weight** - the part of the keyboard that goes underneath the case.
-
-- **Firmware** - the software that runs on the keyboard. It's usually open source, and you can customize it (most of the time it's gonna be QMK).
-
-- **Hotswap PCB** - PCB that allows you to mount switches without soldering.
-
-- **Solder PCB** - PCB that require you to solder the switches to the PCB. Then, you can't remove the switches (unless you desolder them).
-
-- **Mouting style** - how the plate or PCB is secured in the keyboard housing. (more on that here: [keyboard-university](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7))
-
-- **Gasket mount** - a way to mount the PCB to the case. It's usually done with rubber gaskets.
+!!!include(./src/blog/_include-posts/keyboard-guide/tosort_keyboard-voc.md)!!!
 
 <img src="/static/img/posts-img/keyboard-guide/ansi_iso.png" alt="ansi_vs_iso" width="50%"/>
 
@@ -160,41 +132,7 @@ The keeb community has its vocabulary. You'll need to learn it to understand wha
 
 **About the switches**
 
-- **Linear** - the switch that has a smooth and linear feel. (ex: Gateron Yellow)
-
-- **Tactile** - the switch that has a tactile bump. (ex: Gateron Brown)
-
-- **Clicky** - the switch that has a tactile bump and a clicky sound. (ex: Gateron Blue)
-
-- **Thocky** - the switch that has a thocky sound (the sound also depends on other factors).
-
-- **Clacky** - the switch that has a clacky sound (the sound also depends on other factors).
-
-- **Bump** - the switch that has a bump. It can be tactile or clicky, linear switches don't have a bump.
-
-- **Pretravel** - the distance you need to press the switch before it registers the keypress.
-
-- **Actuation** - the distance you need to press the switch to register the key press.
-
-- **Posttravel** - the distance you need to press the switch after it registers the keypress.
-
-- **Actuation force** - the force needed to press the switch to register the key press.
-
-- **Bottoming out** - the distance you need to press the switch to bottom out.
-
-- **Spring** - the part of the switch that determines the force needed to press the switch. Placed between the stem and the bottom housing.
-
-- **Stem** - the part of the switch that goes between the top and bottom housing, and the spring.
-
-- **Top housing** - the part of the switch that goes on top.
-
-- **Bottom housing** - the part of the switch that goes on the bottom.
-
-- **Lubing** - the process of applying lube to the switch.
-
-- **Lube** - the substance that is applied to the switch to make it feel and sound better.
-
-- **Filming** - the process of applying a film to the switch. It goes between the top and bottom housing. It helps reduce unwanted noise from the switch.
+!!!include(./src/blog/_include-posts/keyboard-guide/tosort_switches-voc.md)!!!
 
 <img src="/static/img/posts-img/keyboard-guide/switch_schema.png" alt="switch_schema" width="45%"/>
 
@@ -204,23 +142,7 @@ The keeb community has its vocabulary. You'll need to learn it to understand wha
 
 **About the keycaps**
 
-- **Profile** - the shape of the keycap. There are a lot of different profiles, the most common one is the **cherry profile**. Pretty much all the keycaps can fit on a standard switch (with the cherry specification).
-
-- **Material** - the material of the keycap. There are a lot of different materials, the most common one is **PBT**.
-
-- **Dye sub** - the process of printing the legends on the keycap. There are a lot of different methods, the most common one is **dye sublimation**.
-
-- **ABS** - the keycap that has an **ABS material**.
-
-- **PBT** - the keycap that has a **PBT material**.
-
-- **Double shot** - the keycap that has been shot twice, once for the legends and once for the color. Usually means that it's better quality, for both the durability and the legends.
-
-- **Keycap width** - the width of the keycap expressed in a unit _U_, which represents the width of a standard alpha keycap (keycap with a letter on it).
-
-- **Keycap set** - the set of keycaps that have the same color (actually depends but you got it), material, and profile.
-
-- **GMK** - is a very famous keycaps manufacturer. They have a lot of different keycap sets, and they are known for their high quality. But usually, you have to wait a lot of time to get your hands on them.
+!!!include(./src/blog/_include-posts/keyboard-guide/tosort_keycaps-voc.md)!!!
 
 <img src="/static/img/posts-img/keyboard-guide/layout_size.jpeg" alt="switch_schema" width="75%"/>
 
@@ -230,23 +152,7 @@ The keeb community has its vocabulary. You'll need to learn it to understand wha
 
 **About the hobby in general**
 
-- **Keeb** - a keyboard.
-
-- **Keeb enthusiast** - a person who is passionate about keyboards.
-
-- **Interest check** - a poll to see if there is enough interest in a product. Usually, it's used before a group buy to see if it is worth starting it. Watching for interest checks is a good way to know what products are coming out soon, and you can also support people that are trying to launch their products. You can find interest checks on [geekhack](https://geekhack.org/index.php?board=132.0) and on Reddit [r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/search/?q=IC&restrict_sr=1&sr_nsfw=&include_over_18=1&sort=new).
-
-- **Group buy** - process to buy keebs related products where you pay upfront, and then the manufacturer will produce the product. Usually, you have to wait a lot of time, around 6 months to 1 year (sometimes up to 2 years for GMK sets). **This is probably the most important thing you need to know about the hobby**. If you want high-end/interesting products you'll have to do group buys. You can always buy cheaper things that are in stock, but you'll miss out on a lot of cool stuff (although buying an affordable in-stock keyboard can be a good idea at first to learn about the building mechanism and not all in-stock keebs are bad of course).
-
-- **VIA** - free software that allows you to customize your keyboard. You can remap the keys directly on the firmware, meaning if you take your keyboard to another computer the changes will remain.
-
-- **QMK** - firmware that allows you to customize your keyboard. You can find it in most of the keyboards you'll find in the hobby. You can customize the firmware on tools like [QMK Configurator](https://config.qmk.fm/#/) or [VIA](https://caniusevia.com/). **For beginners, I recommend using VIA, it's easier to use.**
-
-- **Sound test** - a video that shows the sound of a keyboard. Usually, it's just a video of someone typing showcasing the result that he achieved.
-
-- **Deskmat** - a mat that goes on your desk. Can be used for design, comfort, or sound purposes.
-
-- **Foam** - a material that is used to dampen the sound of the keyboard. Usually, it's used on the bottom of the keyboard.
+!!!include(./src/blog/_include-posts/keyboard-guide/tosort_general-voc.md)!!!
 
 ---
 ***TLDR;*** You don't have to know everything, especially if you're looking to build just one keyboard. Just remember that the most beautiful keyboards that you can find will require that you participate in group buys.
@@ -262,11 +168,12 @@ Links of the section:
 
 You're ready to buy your first keyboard? Good! But first, you need to know what you want. There are a lot of different keyboards, and you need to know what you want to buy. Here are some questions that you need to ask yourself:
 - What is your budget?
-- What is your layout?
+- How long are you willing to wait?
+- What layout do you want?
 - What is your switch preference?
-- What is your keycap preference?
+- What is your keycap design/profile preference?
 - Do I want a prebuilt or a DIY keyboard?
-- Do I 
+...
 
 ## 🛍️Where to buy?
 

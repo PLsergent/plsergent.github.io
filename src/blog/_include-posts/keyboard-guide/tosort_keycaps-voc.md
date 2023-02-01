@@ -1,0 +1,9 @@
+- **ABS** - the keycap that has an **ABS material**.
+- **Double shot** - the keycap that has been shot twice, once for the legends and once for the color. Usually means that it's better quality, for both the durability and the legends.
+- **Dye sub** - the process of printing the legends on the keycap. There are a lot of different methods, the most common one is **dye sublimation**.
+- **GMK** - is a very famous keycaps manufacturer. They have a lot of different keycap sets, and they are known for their high quality. But usually, you have to wait a lot of time to get your hands on them.
+- **Keycap set** - the set of keycaps that have the same color (actually depends but you got it), material, and profile.
+- **Keycap width** - the width of the keycap expressed in a unit _U_, which represents the width of a standard alpha keycap (keycap with a letter on it).
+- **Material** - the material of the keycap. There are a lot of different materials, the most common one is **PBT**.
+- **PBT** - the keycap that has a **PBT material**.
+- **Profile** - the shape of the keycap. There are a lot of different profiles, the most common one is the **cherry profile**. Pretty much all the keycaps can fit on a standard switch (with the cherry specification).

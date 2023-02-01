@@ -1,0 +1,18 @@
+- **Actuation force** - the force needed to press the switch to register the key press.
+- **Actuation** - the distance you need to press the switch to register the key press.
+- **Bottom housing** - the part of the switch that goes on the bottom.
+- **Bottoming out** - the distance you need to press the switch to bottom out.
+- **Bump** - the switch that has a bump. It can be tactile or clicky, linear switches don't have a bump.
+- **Clacky** - the switch that has a clacky sound (the sound also depends on other factors).
+- **Clicky** - the switch that has a tactile bump and a clicky sound. (ex: Gateron Blue)
+- **Filming** - the process of applying a film to the switch. It goes between the top and bottom housing. It helps reduce unwanted noise from the switch.
+- **Linear** - the switch that has a smooth and linear feel. (ex: Gateron Yellow)
+- **Lube** - the substance that is applied to the switch to make it feel and sound better.
+- **Lubing** - the process of applying lube to the switch.
+- **Posttravel** - the distance you need to press the switch after it registers the keypress.
+- **Pretravel** - the distance you need to press the switch before it registers the keypress.
+- **Spring** - the part of the switch that determines the force needed to press the switch. Placed between the stem and the bottom housing.
+- **Stem** - the part of the switch that goes between the top and bottom housing, and the spring.
+- **Tactile** - the switch that has a tactile bump. (ex: Gateron Brown)
+- **Thocky** - the switch that has a thocky sound (the sound also depends on other factors).
+- **Top housing** - the part of the switch that goes on top.
