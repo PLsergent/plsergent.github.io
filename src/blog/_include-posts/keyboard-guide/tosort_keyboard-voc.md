@@ -2,10 +2,11 @@
 - **Dampeners** - the part of the keyboard that reduces the sound of the switches. They can be foam, o-rings, or springs.
 - **Firmware** - the software that runs on the keyboard. It's usually open source, and you can customize it (most of the time it's gonna be QMK).
 - **Gasket mount** - a way to mount the PCB to the case. It's usually done with rubber gaskets.
+- **Holy mods** - modding to make the stabilizers sound better using a bandaid and placing it inside the stem of the stabilizer. [Youtube video](https://www.youtube.com/watch?v=-vhpHjlkRgQ)
 - **Hotswap PCB** - PCB that allows you to mount switches without soldering.
 - **Keycaps** - the part of the keyboard that you press. They come in different shapes, sizes, and colors.
 - **LEDs** - the part of the keyboard that lights up the keycaps. They can be RGB, single color, or even no LEDs.
-- **Layout** - literally the layout of the keyboard. It can be 60%, 65%, 75%, 80%, 90%, 100%, TKL, 1800, 1900, etc. (more on that later), there is also a distinction between ANSI and ISO layouts.
+- **Layout** - literally the layout of the keyboard. It can be 60%, 65%, 75%, 80%, 90%, 100%, TKL, 1800, 1900, etc. (more on that later), there is also a distinction between ANSI and ISO layouts (french people, drop the ISO and the AZERTY, trust me, you can still type in AZERTY on QWERTY keycaps).
 - **Mounting style** - how the plate or PCB is secured in the keyboard housing. (more on that here: [keyboard-university](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7))
 - **PCB** - the part of the keyboard that holds the switches and the diodes. It's also where the microcontroller is.
 - **Plate** - the part of the keyboard that holds the switches and the keycaps. It can be made of different materials (aluminum, FR4, polycarbonate, etc.)

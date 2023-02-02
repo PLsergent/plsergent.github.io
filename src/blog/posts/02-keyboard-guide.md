@@ -27,7 +27,7 @@ Nowadays, mechanical keyboards are also widespread but mainly in the gaming comm
 I got into this hobby about 3 years ago, when **I was stuck between having to use a membrane Dell keyboard and a flashy and loud gamer mechanical keyboard**. I was looking for something in between, and **I found it**.
 
 ---
-***TLDR;*** If you are stuck between a membrane keyboard and a gamer mechanical keyboard, you should consider a custom mechanical keyboard especially if you use a keyboard daily. I'll list the reasons below.
+***TLDR; 🏷️*** If you are stuck between a membrane keyboard and a gamer mechanical keyboard, you should consider a custom mechanical keyboard especially if you use a keyboard daily. I'll list the reasons below.
 
 ---
 
@@ -42,7 +42,7 @@ That's one of the things that inspired me, I felt like the keebs were fitting my
 *Tofu60 2.0 - KBDfans*
 
 ---
-***TLDR;*** Keebs are beautiful, elegant and clean. They are a piece of art, and they can fit your style.
+***TLDR; 🏷️*** Keebs are beautiful, elegant and clean. They are a piece of art, and they can fit your style.
 
 ---
 
@@ -63,7 +63,7 @@ Cherry is one of the pioneers in the domain. If you want to know more about the 
 *Cherry MX switch - brown / C³Equalz X TKC Tangerine Switches / Gateron Oil King / NovelKey Cream*
 
 ---
-***TLDR;*** The feel of a keeb is very different from a membrane or laptop keyboard. It's more tactile and responsive, and it's perfect for precise and accurate typing. It's also more satisfying to type on, thanks to the switches.
+***TLDR; 🏷️*** The feel of a keeb is very different from a membrane or laptop keyboard. It's more tactile and responsive, and it's perfect for precise and accurate typing. It's also more satisfying to type on, thanks to the switches.
 
 ---
 
@@ -83,7 +83,7 @@ In the **first video** below, you can see an example of a great keeb sound. The 
 
 
 ---
-***TLDR;*** The sound of a keeb is very satisfying, and you can customize it by choosing the switches, adding foam dampeners, o-rings, keycaps, etc.
+***TLDR; 🏷️*** The sound of a keeb is very satisfying, and you can customize it by choosing the switches, adding foam dampeners, o-rings, keycaps, etc.
 
 ---
 
@@ -155,7 +155,7 @@ The keeb community has its vocabulary. You'll need to learn it to understand wha
 !!!include(./src/blog/_include-posts/keyboard-guide/tosort_general-voc.md)!!!
 
 ---
-***TLDR;*** You don't have to know everything, especially if you're looking to build just one keyboard. Just remember that the most beautiful keyboards that you can find will require that you participate in group buys.
+***TLDR; 🏷️*** You don't have to know everything, especially if you're looking to build just one keyboard. Just remember that the most beautiful keyboards that you can find will require that you participate in group buys.
 Links of the section:
 - [r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/)
 - [geekhack](https://geekhack.org/index.php?board=1.0)
@@ -166,7 +166,7 @@ Links of the section:
 
 ## 💰What to buy?
 
-You're ready to buy your first keyboard? Good! But first, you need to know what you want. There are a lot of different keyboards, and you need to know what you want to buy. Here are some questions that you need to ask yourself:
+You're ready to buy your first keyboard? Good! But first, you need to know what you want. There are a lot of options out there and you need to know what you're aiming for. Here are some questions that you need to ask yourself:
 - What is your budget?
 - How long are you willing to wait?
 - What layout do you want?
@@ -175,11 +175,110 @@ You're ready to buy your first keyboard? Good! But first, you need to know what 
 - Do I want a prebuilt or a DIY keyboard?
 ...
 
+I'll try to answer these questions in the following sections. But again, you'll have to do your research.
+
+### Budget
+
+There is a **large scale of prices** for keyboards. Of course, if you want to get into the hobby and get a real custom keyboard there is some cost involved outside of the keyboard itself. You'll need to buy **switches**, **keycaps**, **cables**, **tools**, etc. But you can also get a good keyboard for a reasonable price (reasonable being a relative term).
+
+**Tools** ~= **20€ to 75€** - [Tools](#tools)
+
+**Switches** ~= **30€ to 70€** - [Switches](#switches), also depend on the size of the board you want to build (60%, 65%, 75%, 80%, 90%, 100%)
+
+**Keycaps** ~= **20€ to 150€** - [Keycaps](#keycaps), hopefully, there are a lot of options around 50 to 100€, this is the range I would recommend since below 50€ the quality is usually pretty poor.
+
+**Extras** ~= **0€ to 100€** - You can also get some fancy desk mats or other accessories. I would recommend getting a decent cable (25€) but you can also use the USB-C cable that you have at home (**pretty much all wired keyboards are gonna use USBC**).
+
+**Keyboard itself** ~= **50€ to ♾️** - Usually includes the case, plate, PCB, stabilizers and foam pads, **excluding** switches, keycaps, cables, and tools. Different ranges described below.
+
+<details>
+  <summary><h4 style='display: inline'>50€ to 150€ - Beginner/first keyboard, usually poor to okay quality</h4></summary>
+
+That's a dangerous price range because you can find decent boards but also pretty bad things. A lot of the time the keebs will be **prebuilt** (meaning no need to buy other parts). Those keyboards are **mainly built of plastic**. But there is some well know brand like [Keychron](https://www.keychron.com/) that offers some decent boards at this price range. If you go for that I would highly recommend that you still open up the board to perform some modding.
+
+There are still some options available on [Aliexpress](https://fr.aliexpress.com/) (rg61, tm680, Epomaker, bm65rgb, etc) that I don't particularly recommend.
+
+As well as other vendors, here is a quick list of some options: Anne pro 2, Ducky, Varmilo, Leopold, D60Lite 👍, etc.
+
+***This price range is the one I would recommend for a first keyboard or if you're a beginner in the hobby.***
+
+***TLDR; 🏷️*** Good for beginners. You can get a decent keyboard for a reasonable price. But you'll need to do some research.
+
+</details>
+
+<br>
+
+<details>
+  <summary><h4 style='display: inline'>150€ to 350€ - Intermediate/advanced, can't go wrong here</h4></summary>
+
+You got your first custom keeb but now you want to go further (or maybe you're just rich)? Okay, this price range is perfect for intermediate/advanced keebs. Most of the well-known group buys will be in this range (QK, Zoom65, Tofu, KBD67, Modekeyboards, etc).
+
+You'll be able to find a **lot of options** with **high quality** overall and **interesting designs**. The board will be made of **aluminum**, **brass** or **polycarbonate**. It will last longer, be more durable and most importantly, it will look better and cleaner. For instance, white plastic tends to become yellowish over time, but aluminum will stay white.
+
+This price range is where you'll find most of the interesting boards on the market. Keep in mind that it's going to require you to join group buys and wait for the board to be produced. But it's worth it.
+
+This might sound like a lot of money but if we compare it to gaming keyboards, some of them can cost up to 300€. In my opinion, a custom keyboard is a lot more interesting, beautiful, and high-standard, you can get a lot more out of it.
+
+***TLDR; 🏷️*** Good for intermediate/advanced users. High standard, and beautiful boards. A lot of options. But you'll need to join group buys.
+
+</details>
+
+<br>
+
+<details>
+  <summary><h4 style='display: inline'>350€ to ♾️ - Veteran, to the moon, you can get anything</h4></summary>
+
+At this point, you either have a lot of money or you're a veteran in the hobby. For this price point, you can get pretty much anything you want. **Crazy design**, **advanced features**, and **very high-quality/design**.
+
+Is it worth it to spend that much money on a keyboard? **Probably not**. But as all hobbies, it's a matter of taste and what you want to do. If you want to get into the hobby and you're willing to spend that much money, go for it. But if you're just looking for a keyboard, you can get a lot of good options for a lot less.
+
+At this point, you want to push the customization to the max and have a really unique board.
+
+***TLDR; 🏷️*** Good for veterans. Crazy design, advanced features, and very high-quality/design. But probably not worth it, unless you fell in love with a specific board.
+
+</details>
+
+### Wait time
+
+#### Groups buys
+
+#### Pre-order
+
+#### In stock
+
+### Layout
+
+#### 65% - 75%
+
+#### 60% - 40%
+
+#### 100%
+
+### Switches
+
+#### Linear
+
+#### Tactile
+
+#### Clicky
+
+### Keycaps
+
+#### Material
+
+#### Profile
+
+#### Brands
+
+### Prebuilt vs DIY
+
 ## 🛍️Where to buy?
 
 ## 👷How to build?
 
 ### Tools
+
+You can get a basic toolkit for around 20€. You can find a lot of options on [Amazon](https://www.amazon.com/s?k=keyboard+toolkit&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2). You'll eventually need a screwdriver for screw-in stabilizers, but for the keeb itself most of the time the necessary tools to screw/unscrew the case/plate are included. The [wowstick](https://www.amazon.com/Tournevis-%C3%A9lectrique-Wowstick-tournevis-lithium-ion/dp/B07H27G9NF?th=1) is a really popular choice if you want to get a decent electric screwdriver.
 
 ## 📷Cool content creators
 
