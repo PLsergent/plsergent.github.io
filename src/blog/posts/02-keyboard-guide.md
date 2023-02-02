@@ -179,7 +179,7 @@ I'll try to answer these questions in the following sections. But again, you'll 
 
 ### Budget
 
-There is a **large scale of prices** for keyboards. Of course, if you want to get into the hobby and get a real custom keyboard there is some cost involved outside of the keyboard itself. You'll need to buy **switches**, **keycaps**, **cables**, **tools**, etc. But you can also get a good keyboard for a reasonable price (reasonable being a relative term).
+There is a **large scale of prices** for keyboards. Of course, if you want to get into the hobby and get a real custom keyboard there is some cost involved outside of the keyboard itself. You'll need to buy **switches**, **keycaps**, **cables**, **tools**, etc. But you can also get a good keyboard for a reasonable price (reasonable being a relative term). 
 
 **Tools** ~= **20€ to 75€** - [Tools](#tools)
 
@@ -189,7 +189,7 @@ There is a **large scale of prices** for keyboards. Of course, if you want to ge
 
 **Extras** ~= **0€ to 100€** - You can also get some fancy desk mats or other accessories. I would recommend getting a decent cable (25€) but you can also use the USB-C cable that you have at home (**pretty much all wired keyboards are gonna use USBC**).
 
-**Keyboard itself** ~= **50€ to ♾️** - Usually includes the case, plate, PCB, stabilizers and foam pads, **excluding** switches, keycaps, cables, and tools. Different ranges described below.
+**Keyboard itself** ~= **50€ to ♾️** - Usually includes the case, plate, PCB, stabilizers and foam pads, **excluding** switches, keycaps, cables, and tools. Different ranges are described below.
 
 <details>
   <summary><h4 style='display: inline'>50€ to 150€ - Beginner/first keyboard, usually poor to okay quality</h4></summary>
@@ -230,7 +230,7 @@ This might sound like a lot of money but if we compare it to gaming keyboards, s
 
 At this point, you either have a lot of money or you're a veteran in the hobby. For this price point, you can get pretty much anything you want. **Crazy design**, **advanced features**, and **very high-quality/design**.
 
-Is it worth it to spend that much money on a keyboard? **Probably not**. But as all hobbies, it's a matter of taste and what you want to do. If you want to get into the hobby and you're willing to spend that much money, go for it. But if you're just looking for a keyboard, you can get a lot of good options for a lot less.
+Is it worth it to spend that much money on a keyboard? **Probably not**. But as with all hobbies, it's a matter of taste and what you want to do. If you want to get into the hobby and you're willing to spend that much money, go for it. But if you're just looking for a keyboard, you can get a lot of good options for a lot less.
 
 At this point, you want to push the customization to the max and have a really unique board.
 
@@ -240,11 +240,33 @@ At this point, you want to push the customization to the max and have a really u
 
 ### Wait time
 
+Depending on the type of purchase you're doing you might experience some noticeable wait time. Here is a quick list of the different types of purchases and their wait time.
+
 #### Groups buys
+
+This is the most common way to get interesting stuff in the hobby. Group buys usually **last a week or two**, and at the end of this period, the vendor will pass the order to the manufacturer. The manufacturer will then produce the boards and send them to the vendor. The vendor will then ship the items to the customers. This process can take at least **4-5 months**, sometimes up to **a year or two**. Note that the vendors in your region are not the ones who designed the items, they are just the middleman between you and the manufacturer.
+
+Recap of the process (from the customer's perspective):
+- **Interest check \[IC\]**: the designer of the items (board, keycaps, desk mat, etc) will post a thread on Reddit or other platforms to see if there is enough interest in the product. If there is enough interest, the designer will move on to the next step.
+- **Group buy \[GB\]**: the designer will contact vendors in various regions (note that each region has its own vendors) and will ask them to host the group buy. The vendors will then post the group buy on their websites and start collecting orders. The group buy will last a week or two, and at the end of this period, if there are enough orders, the vendor will pass the order to the manufacturer, otherwise, the group buy will be canceled and the vendor will refund the customers.
+- **Waiting time**: the manufacturer gets the orders and produces the number of boards that are needed. The manufacturer will then send the boards to the vendors (usually by boat). This process can take at least 4-5 months, sometimes up to a year or two.
+- **Shipping**: the vendor will ship the boards to the customers. This process can take a few days to a few weeks depending on the region.
+
+As you can see the waiting time can be quite long. You need to know what you're getting yourself into because you're committing to a long-term project. What I recommend is that if you see a board that you are really interested in, you should join the group buy and in the meanwhile you can still order other boards that are in stock.
+
+<img src="/static/img/posts-img/keyboard-guide/geekhack.png" alt="geekhack" width="100%"/>
+
+*You can find all the information about IC and incoming GB on [geekhack](https://geekhack.org/)*
 
 #### Pre-order
 
+This is a bit different from group buys since this time the vendor will start manufacturing the boards **independently from the number of orders**. You're paying for a product that is not available yet but **the production might already have started**. Items that are in pre-order **will be in-stock** if the number of pre-orders did not exceed the expected stock. Meaning that in this scenario the vendor takes the risk of having too many boards. Usually, the vendor will give you a discount if you pre-order the item.
+
+The waiting time in this case will vary depending on the progress of the production, the region, the shipping method, etc. But it will be much shorter than group buys. Still, count on at least a few months.
+
 #### In stock
+
+If think you know where it's about to go. In-stock items are ready to be shipped. You can get them right away, although if you're ordering products from a different continent you might have to wait a few weeks.
 
 ### Layout
 
