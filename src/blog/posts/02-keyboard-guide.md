@@ -170,6 +170,7 @@ You're ready to buy your first keyboard? Good! But first, you need to know what 
 - What is your budget?
 - How long are you willing to wait?
 - What layout do you want?
+- Hot-swappable or soldered?
 - What is your switch preference?
 - What is your keycap design/profile preference?
 - Do I want a prebuilt or a DIY keyboard?
@@ -270,11 +271,52 @@ If think you know where it's about to go. In-stock items are ready to be shipped
 
 ### Layout
 
+When we talk about layouts it actually refers to two things: the **size** of the keyboard and the **positioning** of the keys.
+
+The size of the keyboard is measured in **percentage**. The most common sizes are 60%, 65%, 75%, and 100%.
+
+For the positioning of the keys, there are two main layouts: **ANSI** and **ISO**.
+
+#### ANSI vs ISO
+
+**ANSI** and **ISO** are abbreviations for two global standardization organizations - American National Standards Institute and International Organization for Standardization, respectively. These acronyms refer to keyboard layouts that specify the location and size of keys, distinct from logical layouts like QWERTY, Dvorak, Colemak, etc. ANSI and ISO keyboards vary in the arrangement of the Enter, Backslash, and Left Shift keys.
+
+<img src="/static/img/posts-img/keyboard-guide/ansi_iso.png" alt="ansi_vs_iso" width="50%"/>
+
+*ANSI vs ISO layouts*
+
+**In the hobby**, you'll generally find **ANSI** layouts. **ISO** layouts are also not uncommon, but most of the time you'll have to use **solder PCBs**. Why's that? Because, since the ANSI layout is **more common**, the PCB is mostly designed for it. Also since **hotswap PCBs** use **sockets** they are less permissive because you have **less space on the PCB**. Where soldering PCBs **only require holes** (and no sockets), this way you can have **multiple layouts on the same PCB**. This also works for other **particular layouts** with split backspace, split left shift, etc.
+
+My recommendation is to **go for an ANSI layout** if you're a beginner. Even if you're used to the ISO layout, the transition is easy and you'll have more options for the PCBs (and for the boards), and later for the keycaps.
+
+---
+***TLDR; 🏷️*** **ANSI** layout = **US**. **ISO** layout = **EU**. **Go for ANSI** if you're a beginner, you'll have more options for everything.
+
+---
+
+<img src="/static/img/posts-img/keyboard-guide/layouts.jpg" alt="layouts" width="90%"/>
+
+*Some sizes of keyboards ([YouTube video of Hardware Canucks](https://www.youtube.com/watch?v=DWYxofVGIB0))*
+
 #### 65% - 75%
+
+Now we'll be talking about the **size** of the keyboard. Note that sometimes the size can affect the layout.
+
+**65%** and **75%** keyboards are in the most common sizes you'll find (maybe with 60%). They are also the sizes I recommend if you're a beginner. They are **compact** but you'll have everything you need without making compromises.
+
+- 65%: you **get rid** of the **F-row** (F1-F12) and the **numpad**. The **arrow keys** are integrated under the right shift key. This layout is the **most common in the hobby** and the perfect compromise between **compactness** and **functionality**.
+- 75%: you **get rid** of the **numpad** but you keep the **F-row**. The **arrow keys** are integrated under the right shift key. This layout is also very common and it's perfect if you want to keep the F-row. Although, the keyboard will be bigger of course.
+
+<img src="/static/img/posts-img/keyboard-guide/65_layout.png" alt="layouts" width="47%"/>
+<img src="/static/img/posts-img/keyboard-guide/75_layout.png" alt="layouts" width="47%"/>
+
+*65% and 75% layouts*
 
 #### 60% - 40%
 
-#### 100%
+#### TKL - 100%
+
+#### Alice - HHKB - Planck - Split
 
 ### Switches
 
@@ -291,6 +333,10 @@ If think you know where it's about to go. In-stock items are ready to be shipped
 #### Profile
 
 #### Brands
+
+### Stabilizers
+
+### PCB
 
 ### Prebuilt vs DIY
 

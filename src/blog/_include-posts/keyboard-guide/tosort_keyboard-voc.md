@@ -10,7 +10,8 @@
 - **Mounting style** - how the plate or PCB is secured in the keyboard housing. (more on that here: [keyboard-university](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7))
 - **PCB** - the part of the keyboard that holds the switches and the diodes. It's also where the microcontroller is.
 - **Plate** - the part of the keyboard that holds the switches and the keycaps. It can be made of different materials (aluminum, FR4, polycarbonate, etc.)
-- **Solder PCB** - PCB that requires you to solder the switches to the PCB. Then, you can't remove the switches (unless you desolder them).
+- **Sockets** - the part of the PCB that allows you to mount the switches without soldering (hotswap).
+- **Solder PCB** - PCB that requires you to solder the switches to the PCB. Then, you can't remove the switches (unless you desolder them). They usually give more options for the layout.
 - **Stabilizers** - the part of the keyboard that holds the keycaps in place. They are used for the spacebar, the shift keys and the enter.
 - **Switches** - the part of the keyboard that registers the keypresses. There are a lot of different types of switches, and they all have different characteristics.
 - **Weight** - the part of the keyboard that goes underneath the case.
