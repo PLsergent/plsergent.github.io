@@ -50,7 +50,7 @@ That's one of the things that inspired me, I felt like the keebs were fitting my
 
 **The feel** of a custom mechanical keyboard is **very different** from a membrane or laptop keyboard. Most people prefer when the keys are low profile, but the feeling you get from a good keeb is unmatched.
 
-The main reason is that you're getting a more pronounced **tactile feedback**. This has been made possible by the **switches**. They give a less *mushy* feel, every keypress can be clearly felt, making them perfect for precise and accurate typing. It's also more satisfying to type on, thanks to the switches.
+The main reason is that you're getting a more pronounced **tactile feedback**. This has been made possible by the **switches**. They give a less *mushy* feel, every keypress can be clearly felt, making them perfect for precise and accurate typing. It's also more satisfying to type on.
 
 Cherry is one of the pioneers in the domain. If you want to know more about the history of switches you can read [this article](https://tedium.co/2018/07/19/cherry-mx-keyboard-history/) and [this article](https://keyboardsexpert.com/history-of-mechanical-keyboard-switches/). Cherry designed his first switch in the '60s and received a patent in 1974. The first Cherry MX switch was released in 1984. The MX switch is still used today, and it's the most popular switch in the mechanical keyboard community.
 
@@ -73,9 +73,9 @@ Cherry is one of the pioneers in the domain. If you want to know more about the 
 
 You can customize the sound by **choosing the switches**, **adding foam dampeners**, **o-rings**, **keycaps**, etc. You can also lube the switches, we'll talk about that later.
 
-You can be team **thocky**, team **clacky**, or team **clicky**. It's all about personal preference, and you can the sound that satisfies you the most.
+You can be team **thocky**, team **clacky**, or team **clicky**. It's all about personal preference, and you can find the sound that satisfies you the most.
 
-In the **first video** below, you can see an example of a great keeb sound. The second video helps us remind that a keyboard sound **depends on a lot of factors** and the sound you hear in the video might not be representative of reality.
+In the **first video** below, you can see an example of a great keeb sound. The second video helps us remind that a keyboard sound **depends on a lot of factors**: the table, the deskmat, the microphone, etc...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XfbU4AhLIPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -89,11 +89,11 @@ In the **first video** below, you can see an example of a great keeb sound. The 
 
 ### 🔝The customization
 
-This is the main reason **most people** could get into this hobby, or even make one keeb. **You can customize everything**. You can choose the **switches**, the **keycaps**, the **cable**, the **plate**, the **case**, the **PCB**, the **stabilizers**, the **dampeners**, the **LEDs**, the **lube**, etc. Most of the time a keyboard kit will come with the essential parts (PCB, plate, case).
+This is the main reason **most people** could get into this hobby, or even make just one keeb. **You can customize everything**. You can choose the **switches**, the **keycaps**, the **cable**, the **plate**, the **case**, the **PCB**, the **stabilizers**, the **dampeners**, the **LEDs**, the **lube**, etc. Most of the time a keyboard kit will come with the essential parts (PCB, plate, case).
 
 You can create something **unique** in terms of design, sound, feel, and even weight. You can also **choose the layout** (more on that later), and **add layers**. You can also **program macros** and **remap keys** (using [VIA](https://www.caniusevia.com/) or [QMK configurator](https://config.qmk.fm/)).
 
-This ability to customize everything is what makes the hobby so **interesting** and **addicting**. You can **create something unique** that fits your style and your needs. But it can also be *overwhelming*, with a **lot of options** and a **lot of things to learn**. 
+This ability to customize everything is what makes the hobby so **interesting** and **addicting**. You can **create something unique** that fits your style and needs. But it can also be *overwhelming*, with a **lot of options** and a **lot of things to learn**. 
 
 ---
 This is why I'm writing this guide, to help you get started.
@@ -108,7 +108,7 @@ While I was writing this guide I came across this awesome website **[keyboard un
 
 ### Gather information
 
-The first crucial step of your journey to becoming a **keeb enthusiast** (or if you want to build just one keyboard) is to **gather information** by scrolling through social media, forums, videos, vendors' websites, etc. One of the great resources is the [r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/) subreddit.
+The first crucial step of your journey to become a **keeb enthusiast** (or if you want to build just one keyboard) is to **gather information** by scrolling through social media, forums, videos, vendors' websites, etc. One of the great resources is the [r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/) subreddit.
 
 I'll list some of the resources in other sections of this guide:
 - [vendors](#🛍%EF%B8%8Fwhere-to-buy%3F)
@@ -188,7 +188,7 @@ There is a **large scale of prices** for keyboards. Of course, if you want to ge
 
 **Keycaps** ~= **20€ to 150€** - [Keycaps](#keycaps), hopefully, there are a lot of options around 50 to 100€, this is the range I would recommend since below 50€ the quality is usually pretty poor.
 
-**Extras** ~= **0€ to 100€** - You can also get some fancy desk mats or other accessories. I would recommend getting a decent cable (25€) but you can also use the USB-C cable that you have at home (**pretty much all wired keyboards are gonna use USBC**).
+**Extras** ~= **0€ to 100€** - You can also get some fancy deskmats or other accessories. I would recommend getting a decent cable (25€) but you can also use the USB-C cable that you have at home (**pretty much all wired keyboards are gonna use USBC**).
 
 **Keyboard itself** ~= **50€ to ♾️** - Usually includes the case, plate, PCB, stabilizers and foam pads, **excluding** switches, keycaps, cables, and tools. Different ranges are described below.
 
@@ -263,7 +263,7 @@ As you can see the waiting time can be quite long. You need to know what you're 
 
 This is a bit different from group buys since this time the vendor will start manufacturing the boards **independently from the number of orders**. You're paying for a product that is not available yet but **the production might already have started**. Items that are in pre-order **will be in-stock** if the number of pre-orders did not exceed the expected stock. Meaning that in this scenario the vendor takes the risk of having too many boards. Usually, the vendor will give you a discount if you pre-order the item.
 
-The waiting time in this case will vary depending on the progress of the production, the region, the shipping method, etc. But it will be much shorter than group buys. Still, count on at least a few months.
+The waiting time in this case will vary depending on the progress of the production, the region, the shipping method, etc. But it will be much shorter than group buys. Still, count at least a few months.
 
 #### In stock
 
@@ -298,9 +298,9 @@ My recommendation is to **go for an ANSI layout** if you're a beginner. Even if 
 
 *Some sizes of keyboards ([YouTube video of Hardware Canucks](https://www.youtube.com/watch?v=DWYxofVGIB0))*
 
-#### 65% - 75%
-
 Now we'll be talking about the **size** of the keyboard. Note that sometimes the size can affect the layout.
+
+#### 65% - 75%
 
 **65%** and **75%** keyboards are in the most common sizes you'll find (maybe with 60%). They are also the sizes I recommend if you're a beginner. They are **compact** but you'll have everything you need without making compromises.
 
@@ -314,9 +314,64 @@ Now we'll be talking about the **size** of the keyboard. Note that sometimes the
 
 #### 60% - 40%
 
+Although the **60%** gained a lot of popularity in the last years, **60%** and **40%** keyboards are not as common as the **65%** and **75%**. Unlike the previous sizes, you'll have to make some compromises. They are both still usable but it's not for everyone.
+
+- 60%: you **get rid** of the **F-row** (F1-F12), the **numpad** and the **arrow keys**. Although there are some compromises to make with this size, this is personally my **favorite one** in terms of **design**. You can find bellow different layout for the **60%** (I love the HHKB layout).
+
+<img src="/static/img/posts-img/keyboard-guide/layouts_60.jpg" alt="layouts" width="80%"/>
+
+*From Top to bottom: WK, WKL, HHKB*
+<br>
+<br>
+
+- 40%: you **get rid** of the **F-row** (F1-F12), the **numpad**, the **arrow keys** and **number row**. This is one of the **smallest size** you can get. This size is also prone to ortholinear layouts. While being very small it is very practical to carry around.
+
+<img src="/static/img/posts-img/keyboard-guide/40_layout_2.jpg" alt="layouts" width="47%"/>
+<img src="/static/img/posts-img/keyboard-guide/40_layout.png" alt="layouts" width="47%"/>
+
+*40% layout*
+
 #### TKL - 100%
 
+**TKL** and **100%** keyboards are the **biggest sizes** you can get. They are **not as common** in the hobby but are pretty well known by the public since it's the original keyboard size. They are **not as compact** as the previous sizes but they are **more functional**.
+
+- TKL: you **get rid** of the **numpad**. Pretty much the same as the **75%** but bigger.
+
+- 100%: you **get rid** of nothing. This is the **original keyboard size**. You have everything you need and more. This is the **most functional** size you can get. Although, it's **not as compact** as the previous sizes. This size can also be found in the **1800 layout, which is a more compact alternative.
+
+<img src="/static/img/posts-img/keyboard-guide/100_layout.png" alt="layouts" width="47%"/>
+<img src="/static/img/posts-img/keyboard-guide/tkl_layout.png" alt="layouts" width="47%"/>
+
+*1800 and TKL layouts*
+
+
 #### Alice - HHKB - Planck - Split
+
+You can find other crazy layouts out there. They are pretty niche and not for everyone. I won't go into details for each of them but I'll give you a quick overview.
+
+- Alice: a **split** keyboard with a **curved** layout. It's a **very ergonomic** layout. It's also a **very compact** layout. It's a **very popular** layout in the hobby.
+
+<img src="/static/img/posts-img/keyboard-guide/alice_layout.png" alt="layouts" width="47%"/>
+
+*Alice layout*
+
+- HHKB: **H**appy **H**acking **K**ey***b***oard, is a **60%** layout with a **split backspace** and a **split right shift**.
+
+<img src="/static/img/posts-img/keyboard-guide/hhkb_layout.jpg" alt="layouts" width="47%"/>
+
+*HHKB layout*
+
+- Planck: a **40%** layout with a **ortholinear** layout. It's a **very compact** layout.
+
+<img src="/static/img/posts-img/keyboard-guide/planck_layout.png" alt="layouts" width="47%"/>
+
+*Planck layout*
+
+- Split: a **split** keyboard. It's a **very ergonomic** layout for typing, you can find it in different shapes and sizes.
+
+<img src="/static/img/posts-img/keyboard-guide/split_layout.jpg" alt="layouts" width="47%"/>
+
+*Split layout*
 
 ### Switches
 

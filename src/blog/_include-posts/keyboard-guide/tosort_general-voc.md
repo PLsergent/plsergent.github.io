@@ -4,6 +4,7 @@
 - **Interest check** - a poll to see if there is enough interest in a product. Usually, it's used before a group buy to see if it is worth starting it. Watching for interest checks is a good way to know what products are coming out soon, and you can also support people that are trying to launch their products. You can find interest checks on [geekhack](https://geekhack.org/index.php?board=132.0) and on Reddit [r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/search/?q=IC&restrict_sr=1&sr_nsfw=&include_over_18=1&sort=new).
 - **Keeb enthusiast** - a person who is passionate about keyboards.
 - **Keeb** - a keyboard.
+- **Modding** - action to modify a keyboard to make it better in terms of sound, feel, or aesthetics.
 - **QMK** - firmware that allows you to customize your keyboard. You can find it in most of the keyboards you'll find in the hobby. You can customize the firmware on tools like [QMK Configurator](https://config.qmk.fm/#/) or [VIA](https://caniusevia.com/). **For beginners, I recommend using VIA, it's easier to use.**
 - **Sound test** - a video that shows the sound of a keyboard. Usually, it's just a video of someone typing showcasing the result that he achieved.
 - **VIA** - free software that allows you to customize your keyboard. You can remap the keys directly on the firmware, meaning if you take your keyboard to another computer the changes will remain.
