@@ -164,16 +164,30 @@ Links of the section:
 
 ---
 
+### 🦴Keyboard anatomy
+
+<img src="/static/img/posts-img/keyboard-guide/keyboard_parts.png" alt="keyboard_parts" width="75%"/>
+
+*Keyboard parts - Glorious*
+
+- **Case** - the shell of the keyboard, it can be made of plastic, aluminum, wood, polycarbonate, etc.
+- **Plate** - the plate is the part that holds the switches in place. Different types: aluminum, POM, FR4, carbon fiber, etc.
+- **PCB** - the PCB is the brain of the keyboard. It's the part that you plug into your computer. It can be hot-swappable or soldered.
+- **Switches** - the switches are the part that you press to type.
+- **Keycaps** - the keycaps are the part that you see and touch. They are made of ABS or PBT.
+- **Stabilizers** - the stabilizers are the parts that stabilize the longer keys (spacebar, enter, shift, etc.).
+- **Foam** - the foam is used to dampen the sound of the keyboard. There is foam for the plate, the PCB or the bottom case.
+
 ## 💰What to buy?
 
 You're ready to buy your first keyboard? Good! But first, you need to know what you want. There are a lot of options out there and you need to know what you're aiming for. Here are some questions that you need to ask yourself:
-- What is your budget?
-- How long are you willing to wait?
-- What layout do you want?
-- Hot-swappable or soldered?
-- What is your switch preference?
-- What is your keycap design/profile preference?
-- Do I want a prebuilt or a DIY keyboard?
+- [What is your budget?](#budget)
+- [How long are you willing to wait?](#wait-time)
+- [What layout do you want?](#layout)
+- [Hot-swappable or soldered?](#PCB)
+- [What is your switch preference?](#switches)
+- [What is your keycap design/profile preference?](#keycaps)
+- [Do I want a prebuilt or a DIY keyboard?](#prebuilt-vs-diy)
 ...
 
 I'll try to answer these questions in the following sections. But again, you'll have to do your research.
@@ -316,7 +330,7 @@ Now we'll be talking about the **size** of the keyboard. Note that sometimes the
 
 Although the **60%** gained a lot of popularity in the last years, **60%** and **40%** keyboards are not as common as the **65%** and **75%**. Unlike the previous sizes, you'll have to make some compromises. They are both still usable but it's not for everyone.
 
-- 60%: you **get rid** of the **F-row** (F1-F12), the **numpad** and the **arrow keys**. Although there are some compromises to make with this size, this is personally my **favorite one** in terms of **design**. You can find bellow different layout for the **60%** (I love the HHKB layout).
+- 60%: you **get rid** of the **F-row** (F1-F12), the **numpad** and the **arrow keys**. Although there are some compromises to make with this size, this is personally my **favorite one** in terms of **design**. You can find below different layouts for the **60%** (I love the HHKB layout).
 
 <img src="/static/img/posts-img/keyboard-guide/layouts_60.jpg" alt="layouts" width="80%"/>
 
@@ -355,7 +369,7 @@ You can find other crazy layouts out there. They are pretty niche and not for ev
 
 *Alice layout*
 
-- HHKB: **H**appy **H**acking **K**ey***b***oard, is a **60%** layout with a **split backspace** and a **split right shift**.
+- HHKB: **H**appy **H**acking **K**ey**b**oard, is a **60%** layout with a **split backspace** and a **split right shift**.
 
 <img src="/static/img/posts-img/keyboard-guide/hhkb_layout.jpg" alt="layouts" width="47%"/>
 
@@ -373,25 +387,224 @@ You can find other crazy layouts out there. They are pretty niche and not for ev
 
 *Split layout*
 
+---
+***TLDR; 🏷️*** I would recommend starting with something like a 65% or 75% keyboard. They are pretty common and functional. It will leave you more options later to choose the keycaps.
+
+---
+
 ### Switches
 
-#### Linear
+As you understood, the switches are the **heart** of a mechanical keyboard. They are the ones that will make the **difference between a membrane keyboard and a mechanical keyboard**. There are a lot of different switches out there. I'll try to explain the main differences between them.
 
-#### Tactile
+#### Linear - Tactile - Clicky
 
-#### Clicky
+They are 3 main types of switches out there. They differ by the way they are **built**, and ultimately by the way they **feel**.
 
-### Keycaps
+<img src="/static/img/posts-img/keyboard-guide/switches.gif" alt="switches" width="46%"/>
+<img src="/static/img/posts-img/keyboard-guide/switches_stem.jpeg" alt="switches" width="30%"/>
 
-#### Material
+*Switch types & stems*
 
-#### Profile
+- **Linear** - probably the most common type of switch, the activation is **linear** as the name suggested, meaning you're not going to experience a bump when pressing the key down. This type is also the most silent one. Widely used for **gaming**. The corresponding Cherry MX model for linear switches is **Red**.
+
+- **Tactile** - the activation is **tactile**, meaning you're going to experience a **bump** when pressing the key down. The corresponding Cherry MX model for tactile switches is **Brown**.
+
+- **Clicky** - the activation is **clicky**, meaning you're going to experience a **bump** and a **click** when pressing the key down. The corresponding Cherry MX model for clicky switches is **Blue**.
+
+Choosing a switch type is **very subjective**. It's all about **personal preference**. You can find a lot of **switch testers** out there to try different switches. You can also find a lot of **switch sound tests** on YouTube.
+
+<iframe width="760" height="315" src="https://www.youtube.com/embed/bjUCTslYsOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### Switch parts
+
+A switch is composed of **different parts**. The **housing**, the **spring** and the **stem**. The **housing** is the **main part** of the switch, it's the **part that will be soldered** to the PCB. The **spring** is the **part that will give the switch its weight**. The **stem** is the **part that will be pressed**.
+
+<img src="/static/img/posts-img/keyboard-guide/switches_part.jpg" alt="switches" width="70%"/>
+
+*From left to right: top housing, stem, spring, bottom housing*
+
+The stem is the **main difference** between the different types of switches. The **legs** of the stem are making a switch linear, tactile or clicky.
+
+The spring will change the **weight** of the switch. The **heavier** the spring, the **harder** it will be to press the switch. The **lighter** the spring, the **easier** it will be to press the switch. Usually, lighter weight is recommended for gaming, and heavier weight is recommended for typing. But again it's all about **personal preference**, you have to try it yourself to know what you like.
+
+#### Recommendations
+
+Don't overthink the choice of your switches. You can always try different things before making your choice, and as you're building more and more keyboards you'll be able to get comfortable with some types of switches and with a particular weight.
+
+Personally, I use both **tactile** and **linear** switches. I think I do prefer the feeling of tactiles to type, but the sound of linears is more pleasant and **thocky** most of the time. I started with pretty light switches but, as time goes by, I tend to prefer heavier switches. So don't be afraid to try different things!
 
 #### Brands
 
+When you'll begin looking for switches chances are you'll come across the most famous brands being: **Cherry**, **Gateron** and **Kailh**. But don't be afraid to look for other brands that can be sometimes better than traditional ones. Here is some recommendations:
+
+Linear
+
+- Gateron milky yellow
+- Gateron oil king 🔥
+- Alpacas 🔥
+
+Tactile
+
+- Boba U4T 🔥
+- Holy pandas 🔥
+- Durock T1
+
+Clicky
+
+- Idk 🤷‍♂️
+
+---
+***TLDR; 🏷️*** Linear, tactile, clicky. My personal favorites are Boba U4T for tactiles and Alpacas for linears.
+
+---
+
+### Keycaps
+
+Now the fun part begins!
+
+<img src="/static/img/posts-img/keyboard-guide/keycaps.png" alt="keycaps" width="70%"/>
+
+*Keycaps set*
+
+Keycaps are the plastic cap that will cover your switches. It will define the look of your keyboard, this is what you should **spend the most time on**. If you buy on good websites you don't have to worry much about the quality but you should still be careful about the **compatibility** of the keycaps with your keyboard. That's why I recommend going for **65% ANSI layout for your first keyboard**. It's a pretty common layout and you'll have a **lot of options** for keycaps.
+
+*Pssst French people out there. Forgot about finding cool AZERTY keycaps, mostly it'll be QWERTY. But don't worry, you can still use the AZERTY layout on your keyboard. It's just a personal recommendation since it'll be a nightmare trying to find something AZERTY and if you do, most of the time, the quality will be poor. Just go for QWERTY if you matter about the aesthetic of your board!*
+
+#### Keyboard keycaps anatomy
+
+Another steal from my friends **[@keyboard.university](https://www.keyboard.university/100-courses/keycaps-101-ydy8j)**
+
+<img src="/static/img/posts-img/keyboard-guide/anatomy.jpg" alt="keycap_anatomy" width="100%"/>
+
+- **Alphas** - the main keys of the keyboard, the letters, numbers and spacebar.
+- **Modifiers** - the keys that modify the behavior of the keyboard, like the shift key, control key, tab, etc...
+- **Navigation keys** - the keys that are used to navigate through the computer, like the arrow keys, page up, page down, etc...
+- **Function keys** - the keys that are used to perform a specific function, like the F1, F2, F3, etc...
+- **Numpad** - the keys that are used to type numbers, and an extra enter key.
+
+
+#### Material
+
+- PBT
+- ABS
+
+The only thing you should know is that **PBT is very often a better choice**. It's more durable, **better quality**, and it doesn't shine as much as ABS. But it's also more expensive. So if you're on a budget, ABS "doubleshot" keycaps are still a good choice.
+
+#### Profile
+
+<img src="/static/img/posts-img/keyboard-guide/keycaps_profile.jpg" alt="keycap_profiles" width="80%"/>
+
+*Keycaps profiles [@autonomous.ai](https://www.autonomous.ai/ourblog/guide-of-keycap-profiles-and-materials)*
+
+Profile is the **shape** of the keycaps. As you can see in the image above, the profile will make a keycap longer, shorter, more curved, etc... The shape also varies depending on the row of the keycaps. The **row** is the **horizontal line** of the keyboard. For instance, the top row will have higher keycaps with a different inclination than the bottom row.
+
+Although there are **flat** profile keycaps like: DSA, XDA, R3 SA, etc...
+
+The most common profile will be the **Cherry profile** and in my opinion, it's also the best looking one.
+
+#### Size
+
+*See [#master-the-vocabulary](#master-the-vocabulary)*
+
+When buying a keyboard you should find a **picture** of the **possible layout of the keyboard**. The numbers here represent the size of the keycaps that will fit the board. It's something you should pay attention to. If you want a particular design you'll have to make sure the keycaps set you're getting is compatible with your keyboard.
+
+<img src="/static/img/posts-img/keyboard-guide/tofu60_layout.png" alt="tofu60" width="70%"/>
+
+*Possible layout of the tofu60 2.0*
+
+For instance, if I want a layout with a split backspace (so 2x 1u keys instead of the 2u backspace) I'll have to make sure the keycaps set I'm getting has 2x 1u keys for the backspace, with the correct **profile** and printed with the correct **legend**.
+
+So let's say I want the split backspace. I'm looking at this set I like:
+
+<img src="/static/img/posts-img/keyboard-guide/layout_size_explained.png" alt="keycaps_set" width="70%"/>
+
+*Keycaps set compatibility checks*
+
+The blue arrow is pointing at the traditional 2u backspace. But you can see that there is a part under for extra keys. You can see **on the left** that we have the **row numbers** displayed so we know on which row the keycaps should go.
+
+The red arrow points at the keycaps that will fit the split backspace. The 1u ***| /*** and the ***Delete*** key will go on the **first row** and the 1.75u ***Backspace*** key will go on the **second row**. So you should have something like this:
+
+<img src="/static/img/posts-img/keyboard-guide/split_backspace_layout.png" alt="keycaps_set" width="65%"/>
+
+*Split backspace layout*
+
+This is an example to show you the work you'll have to do to **check if the keycaps set** you like will **fit your board**. But don't worry most of the time the **sets will cover a wide variety of layouts**, especially for the most common one (like 65%).
+
+#### Brands/manufacturers
+
+Like the boards, the keycaps are **designed by independent designers** that will follow a norm to fit a specific manufacturer.
+
+- **GMK**: it's the reference for keycaps, GMK sets are known to be good quality but also to be pretty long to be delivered (for GBs).
+- **ePBT**: a lot of the time sponsored by [KBDFans](https://kbdfans.com), with the PBTFans sets. They are also known to be good quality and cheaper than GMK.
+- JTK
+- Domikey
+- Geekark
+- Drop: more a reseller than a manufacturer, but they have their own keycaps sets.
+
 ### Stabilizers
 
+A quick overview of the **stabilizers** that are also important when buying a keyboard. Most of the time the keyboard kit **should come with the stabilizers**, but sometimes you'll have to buy them separately.
+
+Stabilizers are used for keys that are **longer than 2u**. They are used to stabilize the keycaps and avoid wobble. They are also used for the spacebar.
+
+If bought separately make sure you're getting the correct sizes for the layout you choose (see [#size](#size)). The most common sizes are 2u, 2.25u, 2.75u, 6.25u and 7u.
+
+Some stabilizers will be **"clip-in"** and some will be **"screw-in"**. The clip-in are easier to install but the screw-in are more stable.
+
+<img src="/static/img/posts-img/keyboard-guide/stabs.png" alt="stabs" width="50%"/>
+
+*Stabilizers*
+
+Stabilizers usually require **modding** to be better. See [#modding](#modding).
+
+This video summarizes different brands of stabilizers:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YbHINF5JXWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### PCB
+
+The **PCB** is the **brain** of the keyboard. It's the **circuit board** that will **connect** the **switches** to the **computer**. It's also the **part** that will **control** the **RGB** and the **programming** of the keyboard.
+
+The PCB is also the part that will **determine the layout** of the keyboard. So if you want a specific layout you'll have to make sure the PCB you're getting is compatible with it. But usually, the PCB is included when buying a keyboard kit, so you don't have to worry about it.
+
+There are two types of PCBs:
+
+- **Hotswap**: you can **swap** the **switches** without having to **desolder** them. It's a good option if you want to **try different switches** or if you want to **change** them **easily**. But it's also a **bit more expensive**, and doesn't provide as many layout options as the solderable PCBs (due to the usage of sockets).
+
+- **Solderable**: you'll have to **solder** the **switches** to the PCB. It's a **bit cheaper** and you'll have more layout options. But you'll have to **desolder** the switches if you want to change them. Obviously, you'll need more tools and a bit more work.
+
+How to recognize a hotswap PCB? You'll see **sockets** on the PCB. On the other hand, a solderable PCB will have **holes** for the **switches pins** to go through, like this:
+
+<img src="/static/img/posts-img/keyboard-guide/hotswap_pcb.jpg" alt="hotswap_pcb" width="40%"/>
+<img src="/static/img/posts-img/keyboard-guide/solderable_pcb.jpg" alt="solderable_pcb" width="40%"/>
+
+*Hotswap PCB vs Solderable PCB - [Parallel keyboard](https://parallel.limited/)*
+
+### Plate
+
+The **plate** is the **part** that will **hold** the **switches** in place. This part will have a great impact on the **sound** of the keyboard and the **typing experience**.
+
+<img src="/static/img/posts-img/keyboard-guide/plate1.png" alt="plate" width="40%"/>
+<img src="/static/img/posts-img/keyboard-guide/plate2.png" alt="plate" width="40%"/>
+
+*Plate - [Parallel keyboard](https://parallel.limited/)*
+
+The **plate material** will have a great impact on the sound of the keyboard. The most common materials are:
+
+- **Aluminum**: most common material, pretty stiff and heavy.
+- **Carbon fiber**: light material.
+- **POM**: plastic material, flexible and deeper sound.
+- **FR4**: plastic material, middle way between POM and aluminum.
+- **Brass**: heavy metallic material.
+- **Polycarbonate**:  plastic material, similar to POM.
+
+Plastic material plates will tend to be more flexible and have a deeper sound than metallic ones.
+
+Like everything else try them to see which one you prefer. See bellow videos to help you decide which one you should go for. I personally enjoy the **POM** and **FR4** plates a lot.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1AhpSKGEu0A?start=247" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GmljIhkHOlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Prebuilt vs DIY
 
@@ -402,6 +615,10 @@ You can find other crazy layouts out there. They are pretty niche and not for ev
 ### Tools
 
 You can get a basic toolkit for around 20€. You can find a lot of options on [Amazon](https://www.amazon.com/s?k=keyboard+toolkit&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2). You'll eventually need a screwdriver for screw-in stabilizers, but for the keeb itself most of the time the necessary tools to screw/unscrew the case/plate are included. The [wowstick](https://www.amazon.com/Tournevis-%C3%A9lectrique-Wowstick-tournevis-lithium-ion/dp/B07H27G9NF?th=1) is a really popular choice if you want to get a decent electric screwdriver.
+
+### Steps
+
+### Modding
 
 ## 📷Cool content creators
 
