@@ -1,3 +1,64 @@
 .card-body a {
     text-decoration: underline;
 }
+
+.text-pl {
+    color: #35283C;
+}
+
+.card-body a.blog {
+    text-decoration: none;
+}
+
+a.direct-link {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    color: rgb(26, 26, 26);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    color: #40197e;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    color: #6535b1;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #747474;
+}
+
+.card-body p {
+    font-size: 19px;
+    color: #1d2122;
+    font-family: "Lato", sans-serif;
+}
+
+#fixedbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1000;
+    background-color: aliceblue;
+    color: #40197e;
+    display: none;
+    font-weight: 600;
+}

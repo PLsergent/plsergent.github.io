@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "start": "./sort_md_files.sh && eleventy --serve",
+    "build": "./sort_md_files.sh && eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +23,14 @@
   },
   "homepage": "https://github.com/PLsergent/plsergent.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
-    "@splinetool/runtime": "^0.9.130"
+    "@splinetool/runtime": "^0.9.130",
+    "eleventy": "^1.0.6",
+    "markdown-it-anchor": "^8.6.6",
+    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-include": "^2.0.0",
+    "markdown-it-table-of-contents": "^0.6.0"
   }
 }
