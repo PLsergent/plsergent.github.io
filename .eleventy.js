@@ -1,4 +1,5 @@
 const fg = require("fast-glob");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = function (eleventyConfig) {
     // Pass-through files
@@ -13,6 +14,11 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter("gallery", function (dir="") {
         return fg.sync(dir);
+    });
+    eleventyConfig.addPlugin(lazyImagesPlugin, {
+        transformImgPath: (imgPath) => {
+            return imgPath.replace('/gallery/', 'src/static/img/gallery/');
+        }
     });
 
     return {

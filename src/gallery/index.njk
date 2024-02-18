@@ -16,22 +16,22 @@ layout: "base.njk"
     </div>
 
     <div class="row-gallery px-md-5">
-    
+
     <div class="col-md-4 px-2">
-        {% for img in "src/_data/gallery/gallery1/*.{gif,jpg,jpeg}" | gallery | reverse  %}
-            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% for img in "src/static/img/gallery/gallery1/*.{gif,jpg,jpeg}" | gallery | reverse  %}
+            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
         {% endfor %}
     </div>
 
     <div class="col-md-4 px-2">
-        {% for img in "src/_data/gallery/gallery2/*.{gif,jpg,jpeg}" | gallery | reverse %}
-            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% for img in "src/static/img/gallery/gallery2/*.{gif,jpg,jpeg}" | gallery | reverse  %}
+            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
         {% endfor %}
     </div>
 
     <div class="col-md-4 px-2">
-        {% for img in "src/_data/gallery/gallery3/*.{gif,jpg,jpeg}" | gallery | reverse %}
-            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% for img in "src/static/img/gallery/gallery3/*.{gif,jpg,jpeg}" | gallery | reverse  %}
+            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
         {% endfor %}
     </div>
 
