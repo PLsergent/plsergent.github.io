@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/static/js': '/static/js' })
     eleventyConfig.addPassthroughCopy({ 'src/static/scss': '/static/scss' })
     eleventyConfig.addPassthroughCopy({ 'src/static/files': '/static/files' })
-    eleventyConfig.addPassthroughCopy({ 'src/_data/gallery': '/gallery/' })
+    eleventyConfig.addPassthroughCopy({ 'src/static/img/gallery': '/gallery/' })
     eleventyConfig.addPassthroughCopy({ 'src/ads.txt': '/ads.txt' })
 
     eleventyConfig.addFilter("gallery", function (dir="") {
