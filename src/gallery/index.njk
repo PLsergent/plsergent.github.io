@@ -1,0 +1,39 @@
+---
+title: Plog
+layout: "base.njk"
+---
+
+<div class="container-gallery" style="margin-top: 80px;" loading="lazy">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-dark"><a href="/">Home</a></li>
+          <li class="breadcrumb-item text-dark active" aria-current="page">Photo gallery</li>
+        </ol>
+    </nav>
+    <div class="jumbotron jumbotron-fluid mb-4">
+        <p class="lead text-light">Photo gallery</p>
+        <p class="subtitle">Sony Alpha A6400, Lens: Sony E35mm F1.8 OSS</p>
+    </div>
+
+    <div class="row-gallery px-md-5">
+    
+    <div class="col-md-4 px-2">
+        {% for img in "src/_data/gallery/gallery1/*.{gif,jpg,jpeg}" | gallery | reverse  %}
+            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% endfor %}
+    </div>
+
+    <div class="col-md-4 px-2">
+        {% for img in "src/_data/gallery/gallery2/*.{gif,jpg,jpeg}" | gallery | reverse %}
+            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% endfor %}
+    </div>
+
+    <div class="col-md-4 px-2">
+        {% for img in "src/_data/gallery/gallery3/*.{gif,jpg,jpeg}" | gallery | reverse %}
+            <img src="{{ img | replace('src/_data/', '/') }}" class="img-fluid my-2" alt="{{ img }}">
+        {% endfor %}
+    </div>
+
+    </div>
+</div>
