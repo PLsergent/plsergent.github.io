@@ -26,6 +26,8 @@
     "@11ty/eleventy": "^1.0.0"
   },
   "dependencies": {
-    "@splinetool/runtime": "^0.9.130"
+    "@splinetool/runtime": "^0.9.130",
+    "exifr": "^7.1.3",
+    "fast-glob": "^3.3.2"
   }
 }
