@@ -17,7 +17,6 @@ def distribute_img(path="./gallery"):
         "3": []
     }
 
-    i = 0
     for im in images:
         _, h = im.size
         min_height_gal = min(galleries_height, key=lambda x: sum(galleries_height[x]))
