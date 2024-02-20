@@ -12,26 +12,31 @@ layout: "base.njk"
     </nav>
     <div class="jumbotron jumbotron-fluid mb-4">
         <p class="lead text-light">Photo gallery</p>
-        <p class="subtitle">Sony Alpha A6400, Lens: Sony E35mm F1.8 OSS</p>
     </div>
 
     <div class="row-gallery px-md-5">
 
     <div class="col-md-4 px-2">
         {% for img in "src/static/img/gallery/gallery1/*.{gif,jpg,jpeg}" | gallery | reverse  %}
-            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            <a href="{{ img | replace('src/static/img/gallery/gallery1/', '/gallery/photos/')}}" data-lightbox="gallery" data-title="{{ img }}">
+                <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            </a>
         {% endfor %}
     </div>
 
     <div class="col-md-4 px-2">
         {% for img in "src/static/img/gallery/gallery2/*.{gif,jpg,jpeg}" | gallery | reverse  %}
-            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            <a href="{{ img | replace('src/static/img/gallery/gallery2/', '/gallery/photos/')}}" data-lightbox="gallery" data-title="{{ img }}">
+                <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            </a>
         {% endfor %}
     </div>
 
     <div class="col-md-4 px-2">
         {% for img in "src/static/img/gallery/gallery3/*.{gif,jpg,jpeg}" | gallery | reverse  %}
-            <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            <a href="{{ img | replace('src/static/img/gallery/gallery3/', '/gallery/photos/')}}" data-lightbox="gallery" data-title="{{ img }}">
+                <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+            </a>
         {% endfor %}
     </div>
 

@@ -1,0 +1,98 @@
+---
+title: Photo
+layout: "base.njk"
+---
+
+<link href="{{ '/static/css/photos.css' | url }}" rel="stylesheet">
+
+{% set previousPhoto = collections.photos | getPreviousCollectionItem(page) %}
+{% set nextPhoto = collections.photos | getNextCollectionItem(page) %}
+
+<div class="container" style="margin-top: 80px;" loading="lazy">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-dark"><a href="/">Home</a></li>
+          <li class="breadcrumb-item text-dark"><a href="/gallery">Gallery</a></li>
+          <li class="breadcrumb-item text-dark active" aria-current="page">{{ title }}</li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center text-primary mt-2">{{ title }}</h1>
+            <p class="text-center text-light"><i class="fa-solid fa-location-dot"></i> {{ location }} - <i class="fa-solid fa-clock"></i> {{ datetime_taken }}</p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                <a class="btn btn-fourth mr-3" href="/gallery" role="button">
+                    <i class="fa-solid fa-caret-left"></i> Return to Gallery
+                </a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p class="text-center">
+                <button class="btn btn-primary ml-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDetails" aria-expanded="false" aria-controls="collapseDetails">
+                        Photo Infos <i class="fa-regular fa-circle-question"></i>
+                </button>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                {% if nextPhoto %}
+                    <a class="btn btn-fourth float-end" href="{{ nextPhoto.url }}" role="button">
+                        Next <i class="fa-solid fa-caret-right"></i>
+                    </a>
+                {% endif %}
+                {% if previousPhoto %}
+                    <a class="btn btn-fourth float-end" href="{{ previousPhoto.url }}" role="button">
+                        <i class="fa-solid fa-caret-left"></i> Previous
+                    </a>
+                {% endif %}
+            </p>
+        </div>
+        <div class="collapse" id="collapseDetails">
+            <div class="card card-body">
+                <table class="table table-primary table-hover table-sm table-responsive">
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-camera"></i> Camera</th>
+                        <td>{{ camera }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-genderless"></i> Lens</th>
+                        <td>{{ lens }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-ruler"></i> Focal length</th>
+                        <td>{{ focal }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-clock"></i> Exposure</th>
+                        <td>{{ shutter }}s</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-expand"></i> Aperture</th>
+                        <td>{{ aperture }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-lightbulb"></i> ISO</th>
+                        <td>{{ iso }}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa-solid fa-location-dot"></i> Location</th>
+                        <td>{{ location }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="col-md-12 mt-3">
+            <p class="text-primary">Edited <span class="text-sm text-secondary">Scroll to see the raw version! <i class="fa-solid fa-sort-down"></i></span></p>
+            <img src="{{ img_edited | replace('./img', '') }}" class="img-fluid" alt="">
+        </div>
+        
+        <div class="col-md-12 py-3">
+            <p class="text-light">Raw</p>
+            <img src="{{ img_raw | replace('./img', '') }}" class="img-fluid" alt="">
+        </div>
+    </div>
+</div>

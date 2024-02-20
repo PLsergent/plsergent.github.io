@@ -1,0 +1,33 @@
+.text-primary {
+    color: #daadeb !important;
+}
+
+p>a {
+    text-decoration: none;
+}
+
+.card {
+    color: #35283C;
+    background-color: #e6e6e6;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px 10px; 
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #7b809a;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #7b809a;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #7b809a;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 0rem;
+    vertical-align: middle;
+    border-color: #f0f2f5;
+}
+
+thead, tbody, tfoot, tr, td, th {
+    border-style: hidden;
+    border-width: 0;
+}
