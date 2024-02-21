@@ -17,9 +17,9 @@ layout: "base.njk"
     <div class="row">
         
     {% for post in collections.posts %}
-        <div class="col-lg-3 mb-4">
+        <div class="col-lg-4 mb-4">
             <div class="card clickable" data-clickable="true" data-href="{{ post.url }}">
-                <img src="{{ '/static/img/posts-img/' | url }}{{ post.data.img }}" class="card-img-top" alt="...">
+                <img src="{{ '/static/img/posts-img/' | url }}{{ post.data.img }}" class="card-img-top" alt="..." width="100%">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.data.title }}</h5>
                     <p class="card-text">{{ post.data.teaser }}</p>

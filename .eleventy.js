@@ -18,8 +18,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(lazyImagesPlugin, {
         transformImgPath: (imgPath) => {
             return imgPath.replace('/gallery/', 'src/static/img/gallery/');
-        },
-        setWidthAndHeightAttrs: false
+        }
     });
 
     return {

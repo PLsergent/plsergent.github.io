@@ -1,0 +1,29 @@
+.container-gallery {
+    max-width: 1800px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1.5rem);
+    padding-left: var(--bs-gutter-x, 1.5rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-gallery {
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+img {
+    border-radius: 10px;
+    transition: transform 0.2s ease-out 50ms, box-shadow 0.25s ease-out 50ms;
+}
+
+img:hover {
+    transform: scale(1.01);
+    box-shadow: rgba(186, 255, 207, 0.4) 0px 0px 0px 5px, rgba(126, 204, 172, 0.3) 0px 0px 0px 10px, rgba(128, 33, 151, 0.2) 0px 0px 0px 15px, rgba(169, 46, 240, 0.1) 0px 0px 0px 20px, rgba(217, 46, 240, 0.05) 0px 0px 0px 25px;
+}
