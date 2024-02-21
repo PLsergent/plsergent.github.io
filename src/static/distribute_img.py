@@ -1,5 +1,5 @@
 from PIL import Image
-from os import listdir, rename, walk, path, popen
+from os import listdir, rename, walk, path, popen, remove
 import exifread
 import rawpy
 import imageio
@@ -46,7 +46,7 @@ def revert(path="./img/gallery"):
     for i in range(1, 4):
         images = listdir(f"{path}/gallery{i}")
         for img in images:
-            if not img.endswith(".jpgaw"):
+            if not img.endswith("ARW.png"):
                 rename(f"{path}/gallery{i}/{img}", f"{path}/{img}")
 
 def create_md_file(edited, raw, dest="../gallery/photos"):
@@ -70,6 +70,14 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             orientation = "horizontal"
         else:
             orientation = "vertical"
+        
+        with Image.open(f"{raw}.jpgaw") as newimg:
+            if orientation == "vertical":
+                r_newimg = newimg.rotate(90, expand=True)
+                r_newimg.save(f"{raw}.png")
+            else:
+                newimg.save(f"{raw}.png")
+            remove(f"{raw}.jpgaw")
 
         with open(f"{dest}/{edited.split("/")[-1]}.md", "w") as md:
             md.write("---\n")
@@ -83,7 +91,7 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             md.write(f"shutter: {metadata['EXIF ExposureTime']}\n")
             md.write(f"iso: {metadata['EXIF ISOSpeedRatings']}\n")
             md.write(f"img_edited: {edited}\n")
-            md.write(f"img_raw: {raw}.jpgaw\n")
+            md.write(f"img_raw: {raw}.png\n")
             md.write("---\n")
 
 def delete_md_files():
