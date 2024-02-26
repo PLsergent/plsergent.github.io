@@ -3,6 +3,7 @@ from os import listdir, rename, walk, path, popen, remove
 import exifread
 import rawpy
 import imageio
+from time import sleep
 
 
 def look_for_raw(img, img_path="/mnt/c/Users/plser/Pictures/SonyA6400", dest="./img/gallery"):
@@ -23,7 +24,7 @@ def distribute_img(path="./img/gallery"):
             look_for_raw(img)
             with Image.open(f"{path}/{img}") as img:
                 images.append(img)
-
+    sleep(1)
     galleries_height = {
         "1": [],
         "2": [],
@@ -78,10 +79,12 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             else:
                 newimg.save(f"{raw}.png")
             remove(f"{raw}.jpgaw")
-
+        
+        location = determine_location(metadata["EXIF DateTimeOriginal"])
         with open(f"{dest}/{edited.split("/")[-1]}.md", "w") as md:
             md.write("---\n")
             md.write(f"title: {edited.split("/")[-1]}\n")
+            md.write(f"location: {location}\n")
             md.write(f"layout: photo-{orientation}.njk\n")
             md.write(f"datetime_taken: \"{metadata["EXIF DateTimeOriginal"]}\"\n")
             md.write(f"camera: {metadata["Image Make"]} {metadata["Image Model"]}\n")
@@ -93,6 +96,18 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             md.write(f"img_edited: {edited}\n")
             md.write(f"img_raw: {raw}.png\n")
             md.write("---\n")
+
+def determine_location(datetime_taken):
+    location_per_date = {
+        "2024:02:03": "Lausanne, Switzerland",
+        "2024:02:04": "Geneva, Switzerland",
+        "2024:02:10": "Paris, France",
+        "2024:02:11": "Paris, France",
+        "2024:02:17": "Lausanne, Switzerland",
+        "2024:02:24": "Lausanne, Switzerland",
+        "2024:02:25": "Geneva, Switzerland"
+    }
+    return location_per_date[str(datetime_taken).split(" ")[0]]
 
 def delete_md_files():
     pass
