@@ -3,6 +3,7 @@ from os import listdir, rename, walk, path, popen, remove
 import exifread
 import rawpy
 import imageio
+import piexif
 from time import sleep
 
 
@@ -22,8 +23,13 @@ def distribute_img(path="./img/gallery"):
     for img in listdir_img:
         if img.endswith(".jpg"):
             look_for_raw(img)
-            with Image.open(f"{path}/{img}") as img:
-                images.append(img)
+            with Image.open(f"{path}/{img}") as zer:
+                images.append(zer)
+                exif_dict = piexif.load(zer.info['exif'])
+                if exif_dict["0th"][piexif.ImageIFD.ImageDescription] != "Compressed":
+                    exif_dict["0th"][piexif.ImageIFD.ImageDescription] = "Compressed"
+                    exif_bytes = piexif.dump(exif_dict)
+                    zer.save(f"{path}/{img}", optimize=True, quality=70, exif=exif_bytes)
     sleep(1)
     galleries_height = {
         "1": [],
@@ -51,6 +57,7 @@ def revert(path="./img/gallery"):
                 rename(f"{path}/gallery{i}/{img}", f"{path}/{img}")
 
 def create_md_file(edited, raw, dest="../gallery/photos"):
+    # extract raw thumbnail
     with rawpy.imread(raw) as roaw:
         try:
             thumb = roaw.extract_thumb()
