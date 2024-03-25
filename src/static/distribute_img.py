@@ -112,7 +112,14 @@ def determine_location(datetime_taken):
         "2024:02:11": "Paris, France",
         "2024:02:17": "Lausanne, Switzerland",
         "2024:02:24": "Lausanne, Switzerland",
-        "2024:02:25": "Geneva, Switzerland"
+        "2024:02:25": "Geneva, Switzerland",
+        "2024:03:02": "Lyon, France",
+        "2024:03:09": "Geneva, Switzerland",
+        "2024:03:10": "Geneva, Switzerland",
+        "2024:03:16": "Nancy, France",
+        "2024:03:17": "Nancy, France",
+        "2024:03:23": "Geneva, Switzerland",
+        "2024:03:24": "Geneva, Switzerland"
     }
     return location_per_date[str(datetime_taken).split(" ")[0]]
 
