@@ -74,11 +74,15 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
 
     with open(edited, "rb") as r:
         metadata = exifread.process_file(r)
-        if int(str(metadata["Image ImageWidth"])) > int(str(metadata["Image ImageLength"])):
-            orientation = "horizontal"
+        orientation = "vertical"
+        if "Image ImageWidth" in metadata and "Image ImageLength" in metadata:
+            if int(str(metadata["Image ImageWidth"])) > int(str(metadata["Image ImageLength"])):
+                orientation = "horizontal"
+            else:
+                orientation = "vertical"
         else:
-            orientation = "vertical"
-        
+            print(edited)
+            
         with Image.open(f"{raw}.jpgaw") as newimg:
             if orientation == "vertical":
                 r_newimg = newimg.rotate(90, expand=True)
@@ -119,7 +123,15 @@ def determine_location(datetime_taken):
         "2024:03:16": "Nancy, France",
         "2024:03:17": "Nancy, France",
         "2024:03:23": "Geneva, Switzerland",
-        "2024:03:24": "Geneva, Switzerland"
+        "2024:03:24": "Geneva, Switzerland",
+        "2024:03:26": "Geneva, Switzerland",
+        "2024:03:27": "Paris, France",
+        "2024:03:28": "Paris, France",
+        "2024:03:29": "Paris, France",
+        "2024:04:02": "Geneva, Switzerland",
+        "2024:04:03": "Geneva, Switzerland",
+        "2024:04:04": "Geneva, Switzerland",
+        "2024:04:06": "Creux du van, Switzerland",
     }
     return location_per_date[str(datetime_taken).split(" ")[0]]
 
