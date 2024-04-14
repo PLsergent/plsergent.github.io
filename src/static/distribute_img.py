@@ -81,7 +81,7 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             else:
                 orientation = "vertical"
         else:
-            print(edited)
+            print("Orientation not found, default to vertical" + edited)
             
         with Image.open(f"{raw}.jpgaw") as newimg:
             if orientation == "vertical":
@@ -132,6 +132,7 @@ def determine_location(datetime_taken):
         "2024:04:03": "Geneva, Switzerland",
         "2024:04:04": "Geneva, Switzerland",
         "2024:04:06": "Creux du van, Switzerland",
+        "2024:04:12": "Geneva, Switzerland",
     }
     return location_per_date[str(datetime_taken).split(" ")[0]]
 
