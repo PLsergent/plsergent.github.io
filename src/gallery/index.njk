@@ -56,7 +56,7 @@ layout: "base.njk"
             <a href="{{ img | replace('src/static/img/gallery/gallery1/', '/gallery/photos/') 
                             | replace('src/static/img/gallery/gallery2/', '/gallery/photos/') 
                             | replace('src/static/img/gallery/gallery3/', '/gallery/photos/') 
-                    }}" data-lightbox="gallery" data-title="{{ img }}">
+                     }}" data-lightbox="gallery" data-title="{{ img }}">
                 <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
             </a>
         {% endfor %}
