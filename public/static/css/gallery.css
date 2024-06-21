@@ -27,3 +27,15 @@ img:hover {
     transform: scale(1.01);
     box-shadow: rgba(186, 255, 207, 0.4) 0px 0px 0px 5px, rgba(126, 204, 172, 0.3) 0px 0px 0px 10px, rgba(128, 33, 151, 0.2) 0px 0px 0px 15px, rgba(169, 46, 240, 0.1) 0px 0px 0px 20px, rgba(217, 46, 240, 0.05) 0px 0px 0px 25px;
 }
+
+@media (max-width: 768px) {
+    .d-galdesktop-none {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-galmobile-none {
+        display: none !important;
+    }
+}
