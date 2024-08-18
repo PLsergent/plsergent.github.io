@@ -3,6 +3,7 @@ from os import listdir, rename, walk, path, popen, remove
 import exifread
 import rawpy
 import imageio
+import json
 import piexif
 from time import sleep
 
@@ -109,40 +110,18 @@ def create_md_file(edited, raw, dest="../gallery/photos"):
             md.write("---\n")
 
 def determine_location(datetime_taken):
-    location_per_date = {
-        "2024:02:03": "Lausanne, Switzerland",
-        "2024:02:04": "Geneva, Switzerland",
-        "2024:02:10": "Paris, France",
-        "2024:02:11": "Paris, France",
-        "2024:02:17": "Lausanne, Switzerland",
-        "2024:02:24": "Lausanne, Switzerland",
-        "2024:02:25": "Geneva, Switzerland",
-        "2024:03:02": "Lyon, France",
-        "2024:03:09": "Geneva, Switzerland",
-        "2024:03:10": "Geneva, Switzerland",
-        "2024:03:16": "Nancy, France",
-        "2024:03:17": "Nancy, France",
-        "2024:03:23": "Geneva, Switzerland",
-        "2024:03:24": "Geneva, Switzerland",
-        "2024:03:26": "Geneva, Switzerland",
-        "2024:03:27": "Paris, France",
-        "2024:03:28": "Paris, France",
-        "2024:03:29": "Paris, France",
-        "2024:04:02": "Geneva, Switzerland",
-        "2024:04:03": "Geneva, Switzerland",
-        "2024:04:04": "Geneva, Switzerland",
-        "2024:04:06": "Creux du van, Switzerland",
-        "2024:04:12": "Geneva, Switzerland",
-        "2024:04:13": "Lausanne, Switzerland",
-        "2024:04:26": "Geneva, Switzerland",
-        "2024:04:27": "Geneva, Switzerland",
-        "2024:05:01": "Geneva, Switzerland",
-        "2024:05:04": "Geneva, Switzerland",
-        "2024:05:05": "Geneva, Switzerland",
-        "2024:05:17": "Geneva, Switzerland",
-        "2024:05:19": "Annecy, France"
-    }
-    return location_per_date[str(datetime_taken).split(" ")[0]]
+    date_taken = str(datetime_taken).split(" ")[0]
+    with open('locations.json', 'r', encoding='utf-8') as locations_json:
+        locations = json.load(locations_json)
+        if date_taken in locations:
+            return locations[date_taken]
+
+        with open('locations.json', 'w', encoding='utf-8') as locations_json:
+            locations[date_taken] = ""
+            sorted_locations = dict(sorted(locations.items()))
+            json.dump(sorted_locations, locations_json)
+            print(f"Location to define for {date_taken}")
+            return ""
 
 def delete_md_files():
     pass

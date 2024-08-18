@@ -16,9 +16,7 @@ module.exports = function (eleventyConfig) {
         return fg.sync(dir);
     });
     eleventyConfig.addPlugin(lazyImagesPlugin, {
-        transformImgPath: (imgPath) => {
-            return imgPath.replace('/gallery/', 'src/static/img/gallery/');
-        }
+        transformImgPath: (imgPath) => imgPath.replace('/gallery/', 'src/static/img/gallery/')
     });
     eleventyConfig.addFilter("gallery_mobile", function (dir="") {
         var imagesArr = fg.sync(dir)

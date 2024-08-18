@@ -53,12 +53,14 @@ layout: "base.njk"
     <div class="row-gallery px-md-5 d-galmobile-none">
         <div class="col-md-4 px-2">
             {% for img in "src/static/img/gallery/**/*.{gif,jpg,jpeg}" | gallery_mobile | reverse %}
-            <a href="{{ img | replace('src/static/img/gallery/gallery1/', '/gallery/photos/') 
-                            | replace('src/static/img/gallery/gallery2/', '/gallery/photos/') 
-                            | replace('src/static/img/gallery/gallery3/', '/gallery/photos/') 
-                     }}" data-lightbox="gallery" data-title="{{ img }}">
-                <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
-            </a>
+            {% if img != null %}
+                <a href="{{ img | replace('src/static/img/gallery/gallery1/', '/gallery/photos/') 
+                                | replace('src/static/img/gallery/gallery2/', '/gallery/photos/') 
+                                | replace('src/static/img/gallery/gallery3/', '/gallery/photos/') 
+                        }}" data-lightbox="gallery" data-title="{{ img }}">
+                    <img src="{{ img | replace('src/static/img/', '/')}}" class="img-fluid my-2" alt="{{ img }}">
+                </a>
+            {% endif %}
         {% endfor %}
         </div>
     </div>
