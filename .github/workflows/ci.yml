@@ -18,7 +18,7 @@ jobs:
           git pull
           cd ..
           caddy stop
-          caddy start
+          caddy start &
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         passphrase: ${{ secrets.PASSWORD }}
