@@ -16,9 +16,6 @@ jobs:
           git config --global user.email "papa.louis59@gmail.com"
           git config --global user.name "Pierre-Louis Sergent"
           git pull
-          cd ..
-          caddy stop
-          caddy start &
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         passphrase: ${{ secrets.PASSWORD }}
